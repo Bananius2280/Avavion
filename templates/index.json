@@ -1,5 +1,20 @@
 {
   "sections": {
+    "035f9eea-24b0-41bb-8c70-d505664cde07": {
+      "type": "contact-form-custom",
+      "settings": {
+        "image_left": "shopify:\/\/shop_images\/image.jpg",
+        "heading": "Свяжитесь с нами",
+        "text": "<p>Заполните форму для получения консультации по разработке и созданию сайта на Shopify.<\/p>",
+        "btn_text": "Button"
+      }
+    },
+    "317c8762-d8b3-47b8-8a54-81950bc2d6aa": {
+      "type": "contact-form",
+      "settings": {
+        "heading": "Contact form"
+      }
+    },
     "image_banner": {
       "type": "image-banner",
       "blocks": {
@@ -424,6 +439,8 @@
     }
   },
   "order": [
+    "035f9eea-24b0-41bb-8c70-d505664cde07",
+    "317c8762-d8b3-47b8-8a54-81950bc2d6aa",
     "image_banner",
     "1638385511070dd6c1",
     "rich_text",
