@@ -1,0 +1,25 @@
+<meta name="google-site-verification" content="_0XbT_eaxKVxc_y_GPZ6IsOp-AQb0wIownUo-k9i8e0" />
+<meta name="it-rating" content="it-rat-5211d42db149e3eb523744e3b5f501b4" />
+<meta name='freelancehunt' content='4b7a9c28b6ddf6e' />
+{%- if template == 'collection' -%}
+  {%- assign trm_cur_url = request.path -%}
+  {%- if trm_cur_url contains '+' or trm_cur_url contains '%2B' or trm_cur_url contains '%2b' -%}
+    <meta name="robots" content="noindex, nofollow" />
+  {%- elsif current_tags != blank -%}
+  {%- elsif current_page > 1 -%}
+	<meta name="robots" content="noindex, follow"/>
+  {%- endif -%}
+{%- elsif template == 'blog' -%}
+  {%- assign trm_cur_url = request.path -%}
+  {%- if trm_cur_url contains '+' or trm_cur_url contains '%2B' or trm_cur_url contains '%2b' -%}
+    <meta name="robots" content="noindex, nofollow" />
+  {%- elsif current_page > 1 -%}
+	<meta name="robots" content="noindex, follow"/>
+  {%- endif -%}
+{%- elsif template == 'cart' -%}
+  <meta name="robots" content="noindex, nofollow" />
+{%- elsif template == 'search' -%}
+  <meta name="robots" content="noindex, nofollow" />
+{%- elsif template contains 'customers' -%}
+  <meta name="robots" content="noindex, nofollow" />
+{%- endif -%}

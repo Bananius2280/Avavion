@@ -1,0 +1,48 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "settings": {
+        "isEnablePageTitle": false
+      }
+    },
+    "form": {
+      "type": "contact-form",
+      "disabled": true,
+      "settings": {
+        "heading": ""
+      }
+    },
+    "1639947433f1ec5231": {
+      "type": "rich-text",
+      "blocks": {
+        "16399474330926227f-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Контакты",
+            "heading_size": "h1"
+          }
+        },
+        "16399474330926227f-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Please ask Your questions from Monday to Friday 10AM till 6PM (GMT+3)<\/p><p>Telegram:<a href=\"https:\/\/t.me\/trademinister\" target=\"_blank\" title=\"TradeMinister\"><strong>@trademinister<\/strong><\/a><\/p><p>Email: <a href=\"mailto:support@trademinister.net\"><strong>support@trademinister.net<\/strong><\/a><\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "16399474330926227f-0",
+        "16399474330926227f-1"
+      ],
+      "settings": {
+        "color_scheme": "background-1",
+        "full_width": true
+      }
+    }
+  },
+  "order": [
+    "main",
+    "form",
+    "1639947433f1ec5231"
+  ]
+}

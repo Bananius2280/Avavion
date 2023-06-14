@@ -1,0 +1,145 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-product",
+      "blocks": {
+        "vendor": {
+          "type": "text",
+          "settings": {
+            "text": "{{ product.vendor }}",
+            "text_style": "uppercase"
+          }
+        },
+        "title": {
+          "type": "title",
+          "settings": {
+          }
+        },
+        "subtitle": {
+          "type": "text",
+          "settings": {
+            "text": "{{ product.metafields.descriptors.subtitle.value }}",
+            "text_style": "subtitle"
+          }
+        },
+        "price": {
+          "type": "price",
+          "settings": {
+          }
+        },
+        "variant_picker": {
+          "type": "variant_picker",
+          "settings": {
+            "picker_type": "button"
+          }
+        },
+        "quantity_selector": {
+          "type": "quantity_selector",
+          "disabled": true,
+          "settings": {
+          }
+        },
+        "buy_buttons": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_dynamic_checkout": true
+          }
+        },
+        "description": {
+          "type": "description",
+          "settings": {
+          }
+        },
+        "share": {
+          "type": "share",
+          "settings": {
+            "share_label": "Share"
+          }
+        }
+      },
+      "block_order": [
+        "vendor",
+        "title",
+        "subtitle",
+        "price",
+        "variant_picker",
+        "quantity_selector",
+        "buy_buttons",
+        "description",
+        "share"
+      ],
+      "settings": {
+        "enable_sticky_info": true,
+        "hide_variants": false,
+        "enable_video_looping": false
+      }
+    },
+    "product-recommendations": {
+      "type": "product-recommendations",
+      "settings": {
+        "heading": "You may also like",
+        "image_ratio": "adapt",
+        "show_secondary_image": false,
+        "add_image_padding": false,
+        "show_image_outline": true,
+        "show_vendor": false,
+        "show_rating": false
+      }
+    },
+    "078d0633-ff54-42a7-947e-70433d098f32": {
+      "type": "multicolumn",
+      "blocks": {
+        "template--15213587529789__078d0633-ff54-42a7-947e-70433d098f32-1686293755deef1261-0": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/PSD-info.png",
+            "title": "PSD-Info.com",
+            "text": "",
+            "link_label": "Пример работы",
+            "link": "https:\/\/psd-info.com\/"
+          }
+        },
+        "template--15213587529789__078d0633-ff54-42a7-947e-70433d098f32-1686293755deef1261-1": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/2star.jpg",
+            "title": "2Star.Space",
+            "text": "",
+            "link_label": "Пример оплаты монопей",
+            "link": "https:\/\/2star.space\/"
+          }
+        },
+        "template--15213587529789__078d0633-ff54-42a7-947e-70433d098f32-1686293755deef1261-2": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/trademinister-logo.png",
+            "title": "TradeMinister",
+            "text": "",
+            "link_label": "Оплата mono pay",
+            "link": "https:\/\/trademinister.com.ua\/"
+          }
+        }
+      },
+      "block_order": [
+        "template--15213587529789__078d0633-ff54-42a7-947e-70433d098f32-1686293755deef1261-0",
+        "template--15213587529789__078d0633-ff54-42a7-947e-70433d098f32-1686293755deef1261-1",
+        "template--15213587529789__078d0633-ff54-42a7-947e-70433d098f32-1686293755deef1261-2"
+      ],
+      "settings": {
+        "title": "Работающие магазины",
+        "image_width": "full",
+        "image_ratio": "square",
+        "column_alignment": "left",
+        "background_style": "primary",
+        "button_label": "Button label",
+        "button_link": "",
+        "swipe_on_mobile": false
+      }
+    }
+  },
+  "order": [
+    "main",
+    "product-recommendations",
+    "078d0633-ff54-42a7-947e-70433d098f32"
+  ]
+}

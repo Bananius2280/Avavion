@@ -1,0 +1,468 @@
+{
+  "sections": {
+    "fb5e5b71-0a64-44f4-8a92-1376ab215479": {
+      "type": "image-banner-v2",
+      "blocks": {
+        "template--15199260344381__fb5e5b71-0a64-44f4-8a92-1376ab215479-1684489492059a7ec1-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Shopify - профессиональная разработка и создание сайтов интернет-магазинов в Украине",
+            "heading_size": "medium"
+          }
+        },
+        "template--15199260344381__fb5e5b71-0a64-44f4-8a92-1376ab215479-1684489492059a7ec1-1": {
+          "type": "text",
+          "settings": {
+            "text": "Мы предлагаем профессиональную разработку и создание сайтов интернет-магазинов на платформе Shopify в Украине. Наша команда экспертов обладает богатым опытом работы с Shopify и поможет вам создать уникальный и функциональный интернет-магазин, соответствующий вашим потребностям и целям."
+          }
+        },
+        "ab4cbb80-b3ba-400a-85b8-8b0b8f282502": {
+          "type": "buttons",
+          "settings": {
+            "button_label_1": "Заказать сайт",
+            "button_link_1": "#",
+            "button_style_secondary_1": false,
+            "button_label_2": "Button label",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "template--15199260344381__fb5e5b71-0a64-44f4-8a92-1376ab215479-1684489492059a7ec1-0",
+        "template--15199260344381__fb5e5b71-0a64-44f4-8a92-1376ab215479-1684489492059a7ec1-1",
+        "ab4cbb80-b3ba-400a-85b8-8b0b8f282502"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/image.jpg",
+        "image_height": "medium",
+        "adapt_height_first_image": true,
+        "desktop_text_box_position": "center",
+        "show_text_box": true,
+        "image_overlay_opacity": 0,
+        "color_scheme": "background-1",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
+      }
+    },
+    "2509f06f-f1f6-4fb4-90f2-755fb97f5c7f": {
+      "type": "rich-text",
+      "blocks": {
+        "template--15199260344381__2509f06f-f1f6-4fb4-90f2-755fb97f5c7f-16866046259b2834f1-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Наши услуги",
+            "heading_size": "h1"
+          }
+        },
+        "template--15199260344381__2509f06f-f1f6-4fb4-90f2-755fb97f5c7f-16866046259b2834f1-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Предоставляем комплексное решение для вашего бизнеса. Мы предлагаем интеграцию платежных систем, управление содержимым и другие функциональные возможности.<\/p>"
+          }
+        },
+        "template--15199260344381__2509f06f-f1f6-4fb4-90f2-755fb97f5c7f-16866046259b2834f1-2": {
+          "type": "button",
+          "disabled": true,
+          "settings": {
+            "button_label": "Button label",
+            "button_link": "",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "template--15199260344381__2509f06f-f1f6-4fb4-90f2-755fb97f5c7f-16866046259b2834f1-0",
+        "template--15199260344381__2509f06f-f1f6-4fb4-90f2-755fb97f5c7f-16866046259b2834f1-1",
+        "template--15199260344381__2509f06f-f1f6-4fb4-90f2-755fb97f5c7f-16866046259b2834f1-2"
+      ],
+      "settings": {
+        "color_scheme": "background-1",
+        "full_width": true
+      }
+    },
+    "main": {
+      "type": "main-article",
+      "disabled": true,
+      "blocks": {
+        "featured_image": {
+          "type": "featured_image",
+          "settings": {
+            "image_height": "small"
+          }
+        },
+        "title": {
+          "type": "title",
+          "settings": {
+            "blog_show_date": true,
+            "blog_show_author": false
+          }
+        },
+        "share": {
+          "type": "share",
+          "settings": {
+            "share_label": "Share"
+          }
+        },
+        "content": {
+          "type": "content",
+          "settings": {
+          }
+        }
+      },
+      "block_order": [
+        "featured_image",
+        "title",
+        "share",
+        "content"
+      ],
+      "settings": {
+      }
+    },
+    "69544ee1-bb44-402f-8455-d96a68582ba1": {
+      "type": "multicolumn",
+      "blocks": {
+        "template--15199260344381__69544ee1-bb44-402f-8455-d96a68582ba1-16844861695ad09b25-0": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/free-icon-online-shop-925087.png",
+            "title": "Создание интернет-магазинов с нуля",
+            "text": "<p>Наша команда экспертов предлагает полный цикл услуг по созданию и разработке интернет-магазинов под ключ, начиная с идеи и заканчивая полноценным функциональным сайтом. Мы учтем все ваши требования и предпочтения.<\/p>",
+            "link_label": "Узнать цены",
+            "link": ""
+          }
+        },
+        "template--15199260344381__69544ee1-bb44-402f-8455-d96a68582ba1-16844861695ad09b25-1": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/free-icon-counseling-3721323.png",
+            "title": "Консультации и поддержка интернет-магазинов",
+            "text": "<p>После создания интернет-магазинов Shopify, наши специалисты в области консультации и поддержки интернет-магазинов готовы помочь вам в развитии вашего бизнеса на платформе<\/p>",
+            "link_label": "Узнать цены",
+            "link": ""
+          }
+        },
+        "template--15199260344381__69544ee1-bb44-402f-8455-d96a68582ba1-16844861695ad09b25-2": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/free-icon-mobile-app-2274682.png",
+            "title": "Разработка Shopify Apps",
+            "text": "<p>Наша команда специализируется на разработке Shopify Apps, которые помогут вам расширить функциональность вашего интернет-магазина на платформе Shopify. Мы создаем настраиваемые приложения, которые отвечают вашим уникальным потребностям<\/p>",
+            "link_label": "Узнать цены",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--15199260344381__69544ee1-bb44-402f-8455-d96a68582ba1-16844861695ad09b25-0",
+        "template--15199260344381__69544ee1-bb44-402f-8455-d96a68582ba1-16844861695ad09b25-1",
+        "template--15199260344381__69544ee1-bb44-402f-8455-d96a68582ba1-16844861695ad09b25-2"
+      ],
+      "custom_css": [
+
+      ],
+      "settings": {
+        "title": "",
+        "image_width": "third",
+        "image_ratio": "adapt",
+        "column_alignment": "center",
+        "background_style": "primary",
+        "button_label": "",
+        "button_link": "",
+        "swipe_on_mobile": false
+      }
+    },
+    "a21df663-506a-4896-85a0-f20d320312bd": {
+      "type": "rich-text",
+      "blocks": {
+        "template--15199260344381__a21df663-506a-4896-85a0-f20d320312bd-16866046259b2834f1-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Примеры разработки интернет магазинов Shopify",
+            "heading_size": "h1"
+          }
+        },
+        "template--15199260344381__a21df663-506a-4896-85a0-f20d320312bd-16866046259b2834f1-1": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text": "<p>Share information about your brand with your customers. Describe a product, make announcements, or welcome customers to your store.<\/p>"
+          }
+        },
+        "template--15199260344381__a21df663-506a-4896-85a0-f20d320312bd-16866046259b2834f1-2": {
+          "type": "button",
+          "disabled": true,
+          "settings": {
+            "button_label": "Button label",
+            "button_link": "",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "template--15199260344381__a21df663-506a-4896-85a0-f20d320312bd-16866046259b2834f1-0",
+        "template--15199260344381__a21df663-506a-4896-85a0-f20d320312bd-16866046259b2834f1-1",
+        "template--15199260344381__a21df663-506a-4896-85a0-f20d320312bd-16866046259b2834f1-2"
+      ],
+      "settings": {
+        "color_scheme": "background-1",
+        "full_width": true
+      }
+    },
+    "e8dfe967-ba19-44e9-9719-69810c2afd34": {
+      "type": "image-banner",
+      "blocks": {
+        "template--15199260344381__e8dfe967-ba19-44e9-9719-69810c2afd34-1686605081678b678c-0": {
+          "type": "heading",
+          "disabled": true,
+          "settings": {
+            "heading": "Image banner",
+            "heading_size": "medium"
+          }
+        },
+        "template--15199260344381__e8dfe967-ba19-44e9-9719-69810c2afd34-1686605081678b678c-1": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text": "Give customers details about the banner image(s) or content on the template."
+          }
+        },
+        "template--15199260344381__e8dfe967-ba19-44e9-9719-69810c2afd34-1686605081678b678c-2": {
+          "type": "buttons",
+          "disabled": true,
+          "settings": {
+            "button_label_1": "Button label",
+            "button_link_1": "",
+            "button_style_secondary_1": false,
+            "button_label_2": "Button label",
+            "button_link_2": "",
+            "button_style_secondary_2": false,
+            "disable_button_2": true
+          }
+        }
+      },
+      "block_order": [
+        "template--15199260344381__e8dfe967-ba19-44e9-9719-69810c2afd34-1686605081678b678c-0",
+        "template--15199260344381__e8dfe967-ba19-44e9-9719-69810c2afd34-1686605081678b678c-1",
+        "template--15199260344381__e8dfe967-ba19-44e9-9719-69810c2afd34-1686605081678b678c-2"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/ff52589f90c29309a6cce22813752a95.png",
+        "image_height": "medium",
+        "adapt_height_first_image": false,
+        "desktop_text_box_position": "center",
+        "show_text_box": true,
+        "image_overlay_opacity": 0,
+        "color_scheme": "background-1",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
+      }
+    },
+    "26d5b6dd-0171-4eb9-a4e5-4d6a3d1604ff": {
+      "type": "multicolumn",
+      "blocks": {
+        "template--15199260344381__26d5b6dd-0171-4eb9-a4e5-4d6a3d1604ff-1686605991b0bf5d39-0": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/1517017671000.jpg",
+            "title": "Column",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "template--15199260344381__26d5b6dd-0171-4eb9-a4e5-4d6a3d1604ff-1686605991b0bf5d39-1": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/images.jpg",
+            "title": "Column",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "template--15199260344381__26d5b6dd-0171-4eb9-a4e5-4d6a3d1604ff-1686605991b0bf5d39-2": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/images_1.jpg",
+            "title": "Column",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--15199260344381__26d5b6dd-0171-4eb9-a4e5-4d6a3d1604ff-1686605991b0bf5d39-0",
+        "template--15199260344381__26d5b6dd-0171-4eb9-a4e5-4d6a3d1604ff-1686605991b0bf5d39-1",
+        "template--15199260344381__26d5b6dd-0171-4eb9-a4e5-4d6a3d1604ff-1686605991b0bf5d39-2"
+      ],
+      "settings": {
+        "title": "Наши отзывы",
+        "image_width": "half",
+        "image_ratio": "circle",
+        "column_alignment": "center",
+        "background_style": "primary",
+        "button_label": "",
+        "button_link": "",
+        "swipe_on_mobile": false
+      }
+    },
+    "95a856c5-3a02-483e-8be6-ee0bf2a962ba": {
+      "type": "rich-text",
+      "blocks": {
+        "template--15199260344381__95a856c5-3a02-483e-8be6-ee0bf2a962ba-16866046259b2834f1-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Интернет-магазин Shopify тарифы",
+            "heading_size": "h1"
+          }
+        },
+        "template--15199260344381__95a856c5-3a02-483e-8be6-ee0bf2a962ba-16866046259b2834f1-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Стоимость интернет магазина зависит от сложности и желаемого функционала. Мы предлагаем 3 тарифа для удобства наших клиентов<\/p>"
+          }
+        },
+        "template--15199260344381__95a856c5-3a02-483e-8be6-ee0bf2a962ba-16866046259b2834f1-2": {
+          "type": "button",
+          "disabled": true,
+          "settings": {
+            "button_label": "Button label",
+            "button_link": "",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "template--15199260344381__95a856c5-3a02-483e-8be6-ee0bf2a962ba-16866046259b2834f1-0",
+        "template--15199260344381__95a856c5-3a02-483e-8be6-ee0bf2a962ba-16866046259b2834f1-1",
+        "template--15199260344381__95a856c5-3a02-483e-8be6-ee0bf2a962ba-16866046259b2834f1-2"
+      ],
+      "settings": {
+        "color_scheme": "background-1",
+        "full_width": true
+      }
+    },
+    "3cab6e88-d4cf-4853-bfe9-9103349c9598": {
+      "type": "image-with-text",
+      "blocks": {
+        "template--15199260344381__3cab6e88-d4cf-4853-bfe9-9103349c9598-16844903740ceaee0d-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "TRADE MINISTER - РАЗРАБОТЧИК SHOPIFY"
+          }
+        },
+        "template--15199260344381__3cab6e88-d4cf-4853-bfe9-9103349c9598-16844903740ceaee0d-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Мы специализируемся на разработке сайтов для интернет-магазинов на платформе Shopify. Наша команда опытных разработчиков создает привлекательные и функциональные онлайн-магазины, которые помогут вам эффективно продавать ваши товары или услуги в Интернете. Заботимся о технической реализации, настраивая платежные системы, способы доставки и другие функциональные элементы, чтобы ваш магазин работал гладко и безупречно. Доверьте нам разработку вашего интернет-магазина на Shopify и раскройте свой полный потенциал в онлайн-торговле.<\/p>"
+          }
+        },
+        "template--15199260344381__3cab6e88-d4cf-4853-bfe9-9103349c9598-16844903740ceaee0d-2": {
+          "type": "button",
+          "disabled": true,
+          "settings": {
+            "button_label": "Заказать сайт",
+            "button_link": "",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "template--15199260344381__3cab6e88-d4cf-4853-bfe9-9103349c9598-16844903740ceaee0d-0",
+        "template--15199260344381__3cab6e88-d4cf-4853-bfe9-9103349c9598-16844903740ceaee0d-1",
+        "template--15199260344381__3cab6e88-d4cf-4853-bfe9-9103349c9598-16844903740ceaee0d-2"
+      ],
+      "custom_css": [
+
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/2.png",
+        "height": "adapt",
+        "color_scheme": "background-2",
+        "layout": "image_first"
+      }
+    },
+    "2f120dec-f449-48bd-aeda-9c658d2fbe53": {
+      "type": "multicolumn",
+      "blocks": {
+        "template--15199260344381__2f120dec-f449-48bd-aeda-9c658d2fbe53-1684752002ec18f0f7-0": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/2560px-Stripe_Logo__revised_2016.png",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "template--15199260344381__2f120dec-f449-48bd-aeda-9c658d2fbe53-1684752002ec18f0f7-1": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Facebook-Logo.png",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "template--15199260344381__2f120dec-f449-48bd-aeda-9c658d2fbe53-1684752002ec18f0f7-2": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Logo-Amazon.png",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "0fa6f1bf-56ad-4256-b107-a25e4b286b92": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/1280px-Fondy-logo_svg.png",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--15199260344381__2f120dec-f449-48bd-aeda-9c658d2fbe53-1684752002ec18f0f7-0",
+        "template--15199260344381__2f120dec-f449-48bd-aeda-9c658d2fbe53-1684752002ec18f0f7-1",
+        "template--15199260344381__2f120dec-f449-48bd-aeda-9c658d2fbe53-1684752002ec18f0f7-2",
+        "0fa6f1bf-56ad-4256-b107-a25e4b286b92"
+      ],
+      "settings": {
+        "title": "",
+        "image_width": "half",
+        "image_ratio": "adapt",
+        "column_alignment": "center",
+        "background_style": "none",
+        "button_label": "",
+        "button_link": "",
+        "swipe_on_mobile": false
+      }
+    },
+    "70379e93-5b45-4323-92b6-841c03dda358": {
+      "type": "contact-form",
+      "settings": {
+        "heading": "Заказать разработку сайта и рассчитать стоимость"
+      }
+    }
+  },
+  "order": [
+    "fb5e5b71-0a64-44f4-8a92-1376ab215479",
+    "2509f06f-f1f6-4fb4-90f2-755fb97f5c7f",
+    "main",
+    "69544ee1-bb44-402f-8455-d96a68582ba1",
+    "a21df663-506a-4896-85a0-f20d320312bd",
+    "e8dfe967-ba19-44e9-9719-69810c2afd34",
+    "26d5b6dd-0171-4eb9-a4e5-4d6a3d1604ff",
+    "95a856c5-3a02-483e-8be6-ee0bf2a962ba",
+    "3cab6e88-d4cf-4853-bfe9-9103349c9598",
+    "2f120dec-f449-48bd-aeda-9c658d2fbe53",
+    "70379e93-5b45-4323-92b6-841c03dda358"
+  ]
+}

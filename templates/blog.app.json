@@ -1,0 +1,49 @@
+{
+  "sections": {
+    "header": {
+      "type": "rich-text",
+      "blocks": {
+        "title": {
+          "type": "heading",
+          "disabled": true,
+          "settings": {
+            "heading": "Приложения",
+            "heading_size": "h1"
+          }
+        },
+        "text": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text": "<p>Наша компания предоставляет различные приложения.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "title",
+        "text"
+      ],
+      "settings": {
+        "color_scheme": "background-1",
+        "full_width": true
+      }
+    },
+    "main": {
+      "type": "blog-app",
+      "settings": {
+        "layout": "grid",
+        "show_image": true,
+        "image_height": "small",
+        "show_date": false,
+        "show_author": false,
+        "trm_show_description": true,
+        "trm_show_title": true,
+        "trm_show_pagetitle": false
+      }
+    }
+  },
+  "order": [
+    "header",
+    "main"
+  ]
+}

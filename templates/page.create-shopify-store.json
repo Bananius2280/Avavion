@@ -1,0 +1,246 @@
+{
+  "sections": {
+    "16395835549893e46b": {
+      "type": "rich-text",
+      "blocks": {
+        "163958355405473289-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Мы умеем делать работающие онлайн-магазины",
+            "heading_size": "h1"
+          }
+        },
+        "163958355405473289-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Мы создаем онлайн-магазины и приложения с множеством сервисов и систем, как комплексные решения для вашего бизнеса.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "163958355405473289-0",
+        "163958355405473289-1"
+      ],
+      "settings": {
+        "color_scheme": "background-1",
+        "full_width": true
+      }
+    },
+    "16395836900cdbc02c": {
+      "type": "image-with-text",
+      "blocks": {
+        "16395836902ca89d0f-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Создание и сопровождение проекта"
+          }
+        },
+        "16395836902ca89d0f-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Не оставим вас один на один с проектом после запуска: поможем вам адаптироваться и научим им пользоваться. Менеджер проекта закреплен за вами, и готов оперативно решать любые возникающие вопросы.<\/p>"
+          }
+        },
+        "471e58f0-8f66-4db5-8b7a-eea02381476f": {
+          "type": "button",
+          "settings": {
+            "button_label": "Подробнее ➔",
+            "button_link": "shopify:\/\/pages\/question-form",
+            "button_style_secondary": true
+          }
+        }
+      },
+      "block_order": [
+        "16395836902ca89d0f-0",
+        "16395836902ca89d0f-1",
+        "471e58f0-8f66-4db5-8b7a-eea02381476f"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/shopify-laptop-at-small-meeting_535x_9b93e624-9fd3-4b7f-a08c-0c899e8d24fc.webp",
+        "height": "adapt",
+        "color_scheme": "background-1",
+        "layout": "image_first"
+      }
+    },
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "isEnablePageTitle": false
+      }
+    },
+    "1639583721bafaf423": {
+      "type": "image-with-text",
+      "blocks": {
+        "16395837213d0e646e-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "UX\/UI дизайн"
+          }
+        },
+        "16395837213d0e646e-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Разработка дизайна начинается с формирования версии для смартфонов — лаконичной и максимально функциональной. Наши специалисты пользуются современными онлайн-сервисами, поэтому заказчик может оперативно оценить внесенные исправления и следить за прогрессом.<\/p>"
+          }
+        },
+        "71cf2229-5657-46a5-abc2-d31b8664d253": {
+          "type": "button",
+          "settings": {
+            "button_label": "Подробнее ➔",
+            "button_link": "shopify:\/\/pages\/create-shopify-theme",
+            "button_style_secondary": true
+          }
+        }
+      },
+      "block_order": [
+        "16395837213d0e646e-0",
+        "16395837213d0e646e-1",
+        "71cf2229-5657-46a5-abc2-d31b8664d253"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/making-changes-to-mobile-wireframes_535x_fcfe69c2-86a1-4cb7-9ad9-7c50b198ab63.webp",
+        "height": "adapt",
+        "color_scheme": "background-1",
+        "layout": "text_first"
+      }
+    },
+    "1639669075bbf942b7": {
+      "type": "image-with-text",
+      "blocks": {
+        "1639669075cc69f8d3-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Интеграции и приложения"
+          }
+        },
+        "1639669075cc69f8d3-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Приложения Shopify, с которыми вашему магазину будет лучше. Баланс между потребностями вашего бизнеса и свойствами и характеристиками приложений.<\/p>"
+          }
+        },
+        "a1b4ee63-86f1-4c5e-9d59-6196e35c573f": {
+          "type": "button",
+          "settings": {
+            "button_label": "Подробнее ➔",
+            "button_link": "shopify:\/\/pages\/question-form",
+            "button_style_secondary": true
+          }
+        }
+      },
+      "block_order": [
+        "1639669075cc69f8d3-0",
+        "1639669075cc69f8d3-1",
+        "a1b4ee63-86f1-4c5e-9d59-6196e35c573f"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/hands-holds-a-cell-phone-showing-the-shopify-logo_535x_2d7f1950-2986-4c2d-9fd3-e2385074821c.webp",
+        "height": "adapt",
+        "color_scheme": "background-1",
+        "layout": "image_first"
+      }
+    },
+    "1640173304041a42b1": {
+      "type": "image-banner",
+      "disabled": true,
+      "blocks": {
+        "1640173304e029d4e2-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Магазин на Shopify",
+            "heading_size": "medium"
+          }
+        },
+        "1640173304e029d4e2-1": {
+          "type": "text",
+          "settings": {
+            "text": "Создать магазин самостоятельно и бесплатно."
+          }
+        },
+        "1640173304e029d4e2-2": {
+          "type": "buttons",
+          "settings": {
+            "button_label_1": "Перейти",
+            "button_link_1": "http:\/\/www.shopify.com\/?ref=trademinister2&utm_campaign=trm_ru&utm_content=expert&utm_medium=homepage&utm_source=site",
+            "button_style_secondary_1": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false,
+            "disable_button_2": true
+          }
+        }
+      },
+      "block_order": [
+        "1640173304e029d4e2-0",
+        "1640173304e029d4e2-1",
+        "1640173304e029d4e2-2"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Rectangle.png",
+        "image_height": "small",
+        "adapt_height_first_image": false,
+        "desktop_text_box_position": "center",
+        "show_text_box": false,
+        "image_overlay_opacity": 0,
+        "color_scheme": "background-1",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
+      }
+    },
+    "1640384075a56b5311": {
+      "type": "image-banner-v2",
+      "blocks": {
+        "1640384075dd89f07b-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Магазин на Shopify",
+            "heading_size": "medium"
+          }
+        },
+        "1640384075dd89f07b-1": {
+          "type": "text",
+          "settings": {
+            "text": "Создать магазин самостоятельно и бесплатно."
+          }
+        },
+        "1640384075dd89f07b-2": {
+          "type": "buttons",
+          "settings": {
+            "button_label_1": "Перейти",
+            "button_link_1": "http:\/\/www.shopify.com\/?ref=trademinister2&utm_campaign=trm_ru&utm_content=expert&utm_medium=homepage&utm_source=site",
+            "button_style_secondary_1": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "1640384075dd89f07b-0",
+        "1640384075dd89f07b-1",
+        "1640384075dd89f07b-2"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Rectangle.png",
+        "image_height": "small",
+        "adapt_height_first_image": false,
+        "desktop_text_box_position": "center",
+        "show_text_box": true,
+        "image_overlay_opacity": 0,
+        "color_scheme": "background-1",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
+      }
+    }
+  },
+  "order": [
+    "16395835549893e46b",
+    "16395836900cdbc02c",
+    "main",
+    "1639583721bafaf423",
+    "1639669075bbf942b7",
+    "1640173304041a42b1",
+    "1640384075a56b5311"
+  ]
+}

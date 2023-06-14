@@ -1,0 +1,31 @@
+{%- if link.type == 'page_link' -%}
+  {%- assign link_handle = link.object.handle -%}
+  {%- assign new_link_handle = link_handle | append: '-' -%}
+  {%- if current_locale == 'uk' -%}
+    {%- assign new_link_handle = new_link_handle | append: 'ua' -%}
+  {%- else -%}
+    {%- assign new_link_handle = new_link_handle | append: current_locale -%}
+  {%- endif -%}
+  {%- unless pages[new_link_handle].empty? -%}
+    {%- assign new_link_url = pages[new_link_handle].url -%}
+  {%- else -%}
+    {%- assign new_link_url = link.url -%}
+  {%- endunless -%}
+  {{- new_link_url -}}
+{%- elsif link.type == 'blog_link' -%}
+  {%- assign link_handle = link.object.handle -%}
+  {%- assign new_link_handle = link_handle | append: '-' -%}
+  {%- if current_locale == 'uk' -%}
+    {%- assign new_link_handle = new_link_handle | append: 'ua' -%}
+  {%- else -%}
+    {%- assign new_link_handle = new_link_handle | append: current_locale -%}
+  {%- endif -%}
+  {%- unless blogs[new_link_handle].empty? -%}
+    {%- assign new_link_url = blogs[new_link_handle].url -%}
+  {%- else -%}
+    {%- assign new_link_url = link.url -%}
+  {%- endunless -%}
+  {{- new_link_url -}}
+{%- else -%}
+  {{- link.url -}}
+{%- endif -%}

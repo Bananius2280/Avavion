@@ -1,0 +1,191 @@
+{
+  "current": {
+    "colors_solid_button_labels": "#121212",
+    "colors_accent_1": "#f1f1f1",
+    "colors_accent_2": "#121212",
+    "colors_text": "#121212",
+    "colors_outline_button_labels": "#121212",
+    "colors_background_1": "#ffffff",
+    "colors_background_2": "#fafafa",
+    "type_header_font": "helvetica_n7",
+    "type_body_font": "assistant_n4",
+    "page_width": "1200",
+    "social_facebook_link": "",
+    "social_instagram_link": "",
+    "favicon": "shopify:\/\/shop_images\/favicon-2-128.png",
+    "trm_1_ga_id": "UA-43667433-1",
+    "trm_1_domain_for_ga": "trademinister.ru",
+    "trm_2_ga_id": "UA-43667433-8",
+    "trm_2_domain_for_ga": "trademinister.com.ua",
+    "trm_3_ga_id": "UA-43667433-4",
+    "trm_3_domain_for_ga": "trademinister.de",
+    "trm_4_ga_id": "UA-43667433-6",
+    "trm_4_domain_for_ga": "trademinister.net",
+    "trm_5_ga_id": "UA-43667433-3",
+    "trm_5_domain_for_ga": "trademinister.co.uk",
+    "trm_6_ga_id": "UA-43667433-13",
+    "trm_6_domain_for_ga": "trademinister.in",
+    "trm_7_ga_id": "UA-43667433-9",
+    "trm_7_domain_for_ga": "trademinister.by",
+    "trm_8_ga_id": "UA-43667433-10",
+    "trm_8_domain_for_ga": "trademinister.cz",
+    "trm_9_ga_id": "UA-43667433-11",
+    "trm_9_domain_for_ga": "trademinister.ee",
+    "checkout_logo_image": "shopify:\/\/shop_images\/mini-logo2x.png",
+    "checkout_logo_position": "center",
+    "checkout_logo_size": "large",
+    "sections": {
+      "announcement-bar": {
+        "type": "announcement-bar",
+        "blocks": {
+          "announcement-bar-0": {
+            "type": "announcement",
+            "settings": {
+              "text": "Создать магазин на Shopify бесплатно ➔",
+              "color_bg": "#95BB5C",
+              "color_scheme": "background-2",
+              "link": "http:\/\/www.shopify.com\/?ref=trademinister2&utm_campaign=trm_ru&utm_content=expert&utm_medium=homepage&utm_source=site"
+            }
+          }
+        },
+        "block_order": [
+          "announcement-bar-0"
+        ],
+        "settings": {
+        }
+      },
+      "header": {
+        "type": "header",
+        "settings": {
+          "color_scheme": "background-1",
+          "logo": "shopify:\/\/shop_images\/logo-1-blue-white_2_2x_add8bcc4-9169-4ee8-851b-863156bc0ce1.png",
+          "logo_width": 220,
+          "logo_position": "middle-left",
+          "menu": "main-menu",
+          "show_line_separator": true,
+          "enable_sticky_header": true,
+          "linklist_buttons": "",
+          "trm_languages_for_domain": true
+        }
+      },
+      "footer": {
+        "type": "footer",
+        "blocks": {
+          "footer-0": {
+            "type": "link_list",
+            "settings": {
+              "heading": "О компании",
+              "menu": "footer"
+            }
+          },
+          "dc42ac40-78bd-4715-94e4-b74ad6c3ff01": {
+            "type": "link_list",
+            "settings": {
+              "heading": "Покупателям",
+              "menu": "secondary-footer"
+            }
+          },
+          "footer-1": {
+            "type": "text",
+            "settings": {
+              "heading": "TradeMinister",
+              "subtext": "<p>Сопровождение интернет-магазинов на платформе <em><strong>Shopify<\/strong><\/em> от старта до экспансии бизнеса в другие страны. Разработка Shopify приложений и создание шаблонов магазинов. Кастомизация Shopify магазинов.<\/p>"
+            }
+          }
+        },
+        "block_order": [
+          "footer-0",
+          "dc42ac40-78bd-4715-94e4-b74ad6c3ff01",
+          "footer-1"
+        ],
+        "settings": {
+          "color_scheme": "background-1",
+          "newsletter_enable": true,
+          "newsletter_heading": "Подписка на новости",
+          "show_social": true,
+          "enable_country_selector": false,
+          "trm_languages_for_domain": true,
+          "enable_language_selector": false,
+          "payment_enable": false
+        }
+      }
+    },
+    "content_for_index": [
+
+    ],
+    "blocks": {
+      "12793297677437526120": {
+        "type": "shopify:\/\/apps\/content-translation\/blocks\/custom_translations\/b5b83690-efd4-434d-8c6a-a5cef4019faf",
+        "disabled": false,
+        "settings": {
+        }
+      }
+    }
+  },
+  "presets": {
+    "Default": {
+      "colors_solid_button_labels": "#FFFFFF",
+      "colors_accent_1": "#121212",
+      "colors_accent_2": "#334FB4",
+      "colors_text": "#121212",
+      "colors_outline_button_labels": "#121212",
+      "colors_background_1": "#FFFFFF",
+      "colors_background_2": "#F3F3F3",
+      "type_header_font": "assistant_n4",
+      "type_body_font": "assistant_n4",
+      "sections": {
+        "announcement-bar": {
+          "type": "announcement-bar",
+          "blocks": {
+            "announcement-bar-0": {
+              "type": "announcement",
+              "settings": {
+                "color_scheme": "background-1"
+              }
+            }
+          },
+          "block_order": [
+            "announcement-bar-0"
+          ],
+          "settings": {
+          }
+        }
+      }
+    },
+    "Craft": {
+      "colors_solid_button_labels": "#EFECEC",
+      "colors_accent_1": "#2A332F",
+      "colors_accent_2": "#476154",
+      "colors_text": "#1C1A1A",
+      "colors_outline_button_labels": "#7B8382",
+      "colors_background_1": "#EFECEC",
+      "colors_background_2": "#C1BCAE",
+      "type_header_font": "americana_n4",
+      "type_body_font": "quattrocento_sans_n4",
+      "sections": {
+        "footer": {
+          "type": "footer",
+          "blocks": {
+            "menu": {
+              "type": "link_list",
+              "settings": {
+              }
+            },
+            "text": {
+              "type": "text",
+              "settings": {
+              }
+            }
+          },
+          "block_order": [
+            "menu",
+            "text"
+          ],
+          "settings": {
+            "color_scheme": "accent-1"
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,58 @@
+{
+  "sections": {
+    "163923964183760ad3": {
+      "type": "rich-text",
+      "blocks": {
+        "16392396415296acb7-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Приложения Shopify",
+            "heading_size": "h1"
+          }
+        },
+        "16392396415296acb7-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>В зависимости от вида и специфики магазина устанавливаемые приложения могут варьироваться от оплаты до служб доставки или учета склада, поэтому мы разработали самые необходимые приложения для вашего Shopify-магазина, которые будут полезны как на старте запуска магазина, так и магазинам с большой нагрузкой клиентов.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "16392396415296acb7-0",
+        "16392396415296acb7-1"
+      ],
+      "settings": {
+        "color_scheme": "background-1",
+        "full_width": true
+      }
+    },
+    "banner": {
+      "type": "main-collection-banner",
+      "disabled": true,
+      "settings": {
+        "show_collection_description": false,
+        "show_collection_image": false
+      }
+    },
+    "product-grid": {
+      "type": "main-collection-product-grid",
+      "settings": {
+        "products_per_page": 24,
+        "image_ratio": "square",
+        "show_secondary_image": false,
+        "add_image_padding": true,
+        "show_image_outline": true,
+        "show_vendor": false,
+        "show_rating": false,
+        "enable_filtering": false,
+        "enable_sorting": false,
+        "collapse_on_larger_devices": false
+      }
+    }
+  },
+  "order": [
+    "163923964183760ad3",
+    "banner",
+    "product-grid"
+  ]
+}

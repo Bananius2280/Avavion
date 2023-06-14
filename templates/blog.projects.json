@@ -1,0 +1,46 @@
+{
+  "sections": {
+    "1639244749914f4fae": {
+      "type": "rich-text",
+      "blocks": {
+        "1639244749ba143940-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Наши работы",
+            "heading_size": "h1"
+          }
+        },
+        "1639244749ba143940-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p><em><strong>Shopify<\/strong><\/em> - это прекрасная система разработки онлайн-магазина, позволяет соблюдать баланс бесперебойной работы и скорости с стабильно функционирующими функциями. Мы можем предоставить вашему проекту полный комплекс услуг, без дополнительных плат за хостинг, самую надежную CMS в мире, и оперативную техническую поддержку и такие вещи как адаптивная верстка под мобильные устройства.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "1639244749ba143940-0",
+        "1639244749ba143940-1"
+      ],
+      "settings": {
+        "color_scheme": "background-1",
+        "full_width": true
+      }
+    },
+    "main": {
+      "type": "blog-project",
+      "settings": {
+        "layout": "grid",
+        "show_image": true,
+        "image_height": "large",
+        "show_date": true,
+        "show_author": false,
+        "trm_show_description": false,
+        "trm_show_title": false
+      }
+    }
+  },
+  "order": [
+    "1639244749914f4fae",
+    "main"
+  ]
+}

@@ -1,0 +1,121 @@
+{
+  "sections": {
+    "header": {
+      "announcement": "Teadaanne",
+      "menu": "Menüü",
+      "cart_count": {
+        "one": "Elemendid: {{ count }}",
+        "other": "elemendid: {{ count }}"
+      }
+    },
+    "cart": {
+      "note": "Hankige konkreetsed juhised",
+      "checkout": "Tee tellimus",
+      "empty": "Korv on tühi.",
+      "cart_error": "Ostukorvi uuendamine ebaõnnestus. Palun proovige uuesti.",
+      "cart_quantity_error_html": "Selle toote maksimaalne lubatud ühikute arv ostukorvis: {{ kogus }}.",
+      "taxes_and_shipping_policy_at_checkout_html": "Maksud ja <a href=\"{{ link }}\">saadetised<\/a> arvutatakse kassas",
+      "taxes_included_but_shipping_at_checkout": "Maksud ja tarnekulud, mis arvutatakse tellimuse esitamise ajal.",
+      "taxes_included_and_shipping_policy_html": "Maksud hinna sees.  <a href=\"{{ link }}\">Kohaletoimetamine<\/a> arvutatakse kassas.",
+      "taxes_and_shipping_at_checkout": "Maksud ja kohaletoimetamiskulud arvutatakse kassas",
+      "headings": {
+        "product": "Toode",
+        "price": "Hind",
+        "total": "Kokku",
+        "quantity": "Kogus"
+      },
+      "update": "Ajakohastamine",
+      "login": {
+        "title": "Kas teil on juba konto?",
+        "paragraph_html": "<a href=\"{{ link }}\" class=\"link underlined-link\">Logige sisse<\/a>, et maksta kiiremini."
+      }
+    },
+    "footer": {
+      "payment": "Makseviisid"
+    },
+    "featured_blog": {
+      "view_all": "Vaata kõiki",
+      "onboarding_title": "Blogi artikkel",
+      "onboarding_content": "Kirjutage oma blogipostituse kokkuvõte."
+    },
+    "featured_collection": {
+      "view_all": "Vaata kõiki",
+      "view_all_label": "Kuva kõik tooted kollektsioonis \"{{ collection_name }}\""
+    },
+    "collection_list": {
+      "view_all": "Vaata kõiki"
+    },
+    "collection_template": {
+      "empty": "Toodet ei leitud",
+      "use_fewer_filters_html": "Kasutage vähem filtreid või <a class=\"{{ class }}\" href=\"{{ link }}\">eemaldage filtrid<\/a>",
+      "title": "Kollektsioon"
+    },
+    "video": {
+      "load_video": "Laadi video üles: {{kirjeldus }}"
+    }
+  },
+  "shopify": {
+    "sentence": {
+      "words_connector": ",",
+      "two_words_connector": "ja",
+      "last_word_connector": ", ja"
+    },
+    "checkout": {
+      "shipping": {
+        "no_pickup_location_notice": "Vähemalt üks tellitud kaup ei ole järeletulemiseks saadaval",
+        "no_rates_for_country_notice": "Sellele aadressile kohaletoimetamise maksumuse kohta andmed puuduvad.",
+        "no_rates_contact_notice": "Lisateabe saamiseks võtke meiega ühendust",
+        "free_rate_label": "On vaba",
+        "cheapest_rate_label": "Madalaim hind",
+        "please_enter_your_shipping_information_notice": "Sisesta tarneteave.",
+        "estimated_delivery_date_range": "%{minimum}–%{maximum} tööpäevad",
+        "shipping_line_phone_label": "Mobiiltelefoni number (nõutav)",
+        "shipping_line_phone": "Teie kuller võib teiega ühenduse võtmiseks seda numbrit kasutada.",
+        "shipping_rate_discounted_amount": "Saaja: %{original_amount}. Nüüd: %{amount}",
+        "optional_shipping_line_delivery_instructions_label": "Saatmisjuhised (valikuline)",
+        "estimated_delivery_date": {
+          "one": "Tööpäevad: %{count}",
+          "other": "%{count} tööpäeva.",
+          "few": "%{count} tööpäeva.",
+          "many": "%{count} tööpäeva"
+        },
+        "other_method": {
+          "zero": "Muid valikuid pole"
+        },
+        "shipping_line_delivery_phone_label": "Mobiiltelefoni number",
+        "shipping_line_delivery_instructions": "Sisestage kasulik teave, näiteks sisetelefoni kood või juhised paki jätmise kohta.",
+        "local_delivery": "kohalik kohaletoimetamine",
+        "subscription_shipping": "Kohaletoimetamine tellimuse alusel",
+        "shipping_method_one_time_purchase_group_title": "Ühekordne ost",
+        "shipping_method_subscription_group_title": "Tellimus"
+      }
+    },
+    "links": {
+      "powered_by_shopify": "Powered by Shopify"
+    }
+  },
+  "newsletter": {
+    "label": "E-posti aadress"
+  },
+  "blogs": {
+    "article": {
+      "email": "E-posti aadress",
+      "read_more": "Lisateave ➔"
+    }
+  },
+  "templates": {
+    "contact": {
+      "form": {
+        "email": "E-posti aadress"
+      }
+    }
+  },
+  "customer": {
+    "login_page": {
+      "email": "E-posti aadress"
+    },
+    "register": {
+      "email": "E-posti aadress"
+    }
+  }
+}
