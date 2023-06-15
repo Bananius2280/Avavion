@@ -1,0 +1,180 @@
+{{ 'section-prices.css' | asset_url | stylesheet_tag }}
+
+<div class="prices">
+  <div class="page-width">
+    <div class="prices-top">
+      {%- if section.settings.title != blank -%}
+        <h2 class="prices-top__title h1">
+          {{- section.settings.title -}}
+        </h2>
+      {%- endif -%}
+      {%- if section.settings.text != blank -%}
+        <p class="prices-top__text">
+          {{- section.settings.text -}}
+        </p>
+      {%- endif -%}
+    </div>
+    <div class="prices-items">
+      {%- for block in section.blocks -%}
+        <div class="prices-item">
+          <div class="prices-item__top">
+            {%- if block.settings.item_img != blank -%}
+              <img
+                class="prices-item__top--img lazyload"
+                src="{{- block.settings.item_img | image_url: width: 1200 -}}"
+                alt="{{- block.settings.item_img.alt | escape -}}"
+                loading="lazy">
+            {%- endif -%}
+            <div class="prices-item__top--box">
+              {%- if block.settings.item_title != blank -%}
+                <h4 class="prices-item__top--box-title">
+                  {{- block.settings.item_title -}}
+                </h4>
+              {%- endif -%}
+              {%- if block.settings.item_text != blank -%}
+                <h5 class="prices-item__top--box-text">
+                  {{- block.settings.item_text -}}
+                </h5>
+              {%- endif -%}
+            </div>
+          </div>
+          <div class="prices-item__bottom">
+            <ul class="prices-item__bottom--lists">
+              {%- if block.settings.item_first_title != blank -%}
+                <li class="prices-item__bottom--list">
+                  {{- block.settings.item_first_title -}}
+                </li>
+              {%- endif -%}
+              {%- if block.settings.item_second_title != blank -%}
+                <li class="prices-item__bottom--list">
+                  {{- block.settings.item_second_title -}}
+                </li>
+              {%- endif -%}
+              {%- if block.settings.item_third_title != blank -%}
+                <li class="prices-item__bottom--list">
+                  {{- block.settings.item_third_title -}}
+                </li>
+              {%- endif -%}
+              {%- if block.settings.item_fourth_title != blank -%}
+                <li class="prices-item__bottom--list">
+                  {{- block.settings.item_fourth_title -}}
+                </li>
+              {%- endif -%}
+              {%- if block.settings.item_fifth_title != blank -%}
+                <li class="prices-item__bottom--list">
+                  {{- block.settings.item_fifth_title -}}
+                </li>
+              {%- endif -%}
+              {% comment %} {%- if block.settings.item_sixth_title != blank -%}
+              <li class="prices-item__bottom--list">
+              {{- block.settings.item_sixth_title -}}
+              </li>
+              {%- endif -%}
+              {%- if block.settings.item_seventh_title != blank -%}
+              <li class="prices-item__bottom--list">
+              {{- block.settings.item_seventh_title -}}
+              </li>
+              {%- endif -%} {% endcomment %}
+            </ul>
+            {%- if block.settings.item_btn_link != blank -%}
+              <a class="prices-item__bottom--btn" href="{{- block.settings.item_btn_link -}}">
+                {{- block.settings.item_btn_text -}}
+              </a>
+            {%- endif -%}
+          </div>
+        </div>
+      {%- endfor -%}
+    </div>
+  </div>
+</div>
+
+
+{% schema %}
+  {
+    "name": "Prices",
+    "tag": "section",
+    "max_blocks": 3,
+    "settings": [
+      {
+        "type": "text",
+        "id": "title",
+        "default": "Title",
+        "label": "Title"
+      }, {
+        "type": "textarea",
+        "id": "text",
+        "label": "Text"
+      }
+    ],
+    "blocks": [
+      {
+        "type": "column",
+        "name": "Price",
+        "settings": [
+          {
+            "type": "image_picker",
+            "id": "item_img",
+            "label": "Price image"
+          },
+          {
+            "type": "text",
+            "id": "item_title",
+            "default": "Title",
+            "label": "Price title"
+          },
+          {
+            "type": "text",
+            "id": "item_text",
+            "default": "Title",
+            "label": "Price text"
+          },
+          {
+            "type": "text",
+            "id": "item_first_title",
+            "default": "Title",
+            "label": "Price first title"
+          }, {
+            "type": "text",
+            "id": "item_second_title",
+            "default": "Title",
+            "label": "Price second title"
+          }, {
+            "type": "text",
+            "id": "item_third_title",
+            "default": "Title",
+            "label": "Price third title"
+          }, {
+            "type": "text",
+            "id": "item_fourth_title",
+            "default": "Title",
+            "label": "Price fourth title"
+          }, {
+            "type": "text",
+            "id": "item_fifth_title",
+            "default": "Title",
+            "label": "Price fifth title"
+          }, {
+            "type": "text",
+            "id": "item_btn_text",
+            "default": "Title",
+            "label": "Button text"
+          }, {
+            "type": "url",
+            "id": "item_btn_link",
+            "label": "Button link"
+          }
+        ]
+      }
+    ],
+    "presets": [
+      {
+        "name": "Prices",
+        "blocks": [
+          {
+            "type": "column"
+          }
+        ]
+      }
+    ]
+  }
+{% endschema %}

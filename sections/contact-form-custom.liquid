@@ -16,12 +16,12 @@
     <div class="contact-form__right{% if section.settings.image_left == blank %} contact-form__right--only{% endif %}">
       {%- if section.settings.heading != blank -%}
         <h2 class="h1 contact-form__right--title">
-          {{ section.settings.heading | escape }}
+          {{- section.settings.heading | escape -}}
         </h2>
       {%- endif -%}
       {%- if section.settings.text != blank -%}
         <p class="contact-form__right--text">
-          {{ section.settings.text }}
+          {{- section.settings.text -}}
         </p>
       {%- endif -%}
       {%- form 'contact', id: 'ContactForm' -%}
@@ -111,7 +111,7 @@
 
 {% schema %}
   {
-    "name": "contact form custom",
+    "name": "Contact form custom",
     "tag": "section",
     "settings": [
       {
@@ -131,7 +131,7 @@
     ],
     "presets": [
       {
-        "name": "contact form custom"
+        "name": "Contact form custom"
       }
     ]
   }

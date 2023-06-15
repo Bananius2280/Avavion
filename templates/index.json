@@ -1,12 +1,70 @@
 {
   "sections": {
+    "f47b7ee2-b586-4f3b-a151-075fe8fd7100": {
+      "type": "prices",
+      "blocks": {
+        "template--15215971631165__f47b7ee2-b586-4f3b-a151-075fe8fd7100-1686823839975115e3-0": {
+          "type": "column",
+          "settings": {
+            "item_img": "shopify:\/\/shop_images\/061.svg",
+            "item_title": "One hour",
+            "item_text": "$12 \/ person",
+            "item_first_title": "Free WI-FI",
+            "item_second_title": "Hot desk",
+            "item_third_title": "Free printer",
+            "item_fourth_title": "",
+            "item_fifth_title": "",
+            "item_btn_text": "Консультация",
+            "item_btn_link": "shopify:\/\/pages\/question-form"
+          }
+        },
+        "9caadcad-1356-44b2-b952-8d4a3ab60ced": {
+          "type": "column",
+          "settings": {
+            "item_img": "shopify:\/\/shop_images\/05.svg",
+            "item_title": "All day",
+            "item_text": "$50 \/ person",
+            "item_first_title": "Free WI-FI",
+            "item_second_title": "Hot desk",
+            "item_third_title": "Free printer",
+            "item_fourth_title": "2 hours in meeting room",
+            "item_fifth_title": "Tea and coffee",
+            "item_btn_text": "Консультация",
+            "item_btn_link": "shopify:\/\/pages\/question-form"
+          }
+        },
+        "06e8f30e-13dd-4a47-a9f5-b83dba011cc9": {
+          "type": "column",
+          "settings": {
+            "item_img": "shopify:\/\/shop_images\/04.svg",
+            "item_title": "Pro",
+            "item_text": "$199 \/ person",
+            "item_first_title": "Free WI-FI",
+            "item_second_title": "Dedicated desk",
+            "item_third_title": "Free printer",
+            "item_fourth_title": "5 hours in meeting room",
+            "item_fifth_title": "Tea and coffee",
+            "item_btn_text": "Консультация",
+            "item_btn_link": "shopify:\/\/pages\/question-form"
+          }
+        }
+      },
+      "block_order": [
+        "template--15215971631165__f47b7ee2-b586-4f3b-a151-075fe8fd7100-1686823839975115e3-0",
+        "9caadcad-1356-44b2-b952-8d4a3ab60ced",
+        "06e8f30e-13dd-4a47-a9f5-b83dba011cc9"
+      ],
+      "settings": {
+        "title": "Интернет-магазин Shopify тарифы",
+        "text": "Стоимость интернет магазина зависит от сложности и желаемого функционала. Мы предлагаем 3 тарифа для удобства наших клиентов"
+      }
+    },
     "035f9eea-24b0-41bb-8c70-d505664cde07": {
       "type": "contact-form-custom",
       "settings": {
         "image_left": "shopify:\/\/shop_images\/image.jpg",
         "heading": "Свяжитесь с нами",
-        "text": "<p>Заполните форму для получения консультации по разработке и созданию сайта на Shopify.<\/p>",
-        "btn_text": "Button"
+        "text": "Заполните форму для получения консультации по разработке и созданию сайта на Shopify."
       }
     },
     "317c8762-d8b3-47b8-8a54-81950bc2d6aa": {
@@ -439,6 +497,7 @@
     }
   },
   "order": [
+    "f47b7ee2-b586-4f3b-a151-075fe8fd7100",
     "035f9eea-24b0-41bb-8c70-d505664cde07",
     "317c8762-d8b3-47b8-8a54-81950bc2d6aa",
     "image_banner",
