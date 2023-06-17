@@ -1,0 +1,86 @@
+{{ 'section-stages.css' | asset_url | stylesheet_tag }}
+
+<div class="stages">
+  <div class="page-width">
+    <h2 class="stages-title h1">
+      {{ section.settings.title }}
+    </h2>
+    <div class="stages-items">
+      {%- for block in section.blocks -%}
+        <div class="stages-item{% if forloop.index == 2 %} stages-item__right{% endif %}">
+          <div class="stages-item__img--box{% if forloop.index == 2 %} stages-item__img--box-right{% endif %}{% if forloop.index == 3 %} stages-item__img--box-left{% endif %}">
+            <img
+              class="stages-item--img lazyload"
+              src="{{- block.settings.item_img | image_url: width: 160 -}}"
+              alt="{{- block.settings.item_img.alt | escape -}}"
+              loading="lazy">
+          </div>
+          <div class="stages-item__box{% if forloop.index == 2 %} stages-item__box--right{% endif %}{% if forloop.index == 3 %} stages-item__box--last{% endif %}">
+            <h4 class="stages-item__title">
+              {{- block.settings.item_title -}}
+            </h4>
+            <div class="stages-item__text">
+              {{- block.settings.item_text -}}
+            </div>
+            <span class="stages-item__number{% if forloop.index == 2 %} stages-item__number--right{% endif %}">
+              {{- block.settings.item_number -}}
+            </span>
+          </div>
+        </div>
+      {%- endfor -%}
+    </div>
+  </div>
+</div>
+
+{% schema %}
+  {
+    "name": "Stages",
+    "tag": "section",
+    "max_blocks": 3,
+    "settings": [
+      {
+        "type": "text",
+        "id": "title",
+        "default": "Title",
+        "label": "Title"
+      }
+    ],
+    "blocks": [
+      {
+        "type": "column",
+        "name": "Stage",
+        "settings": [
+          {
+            "type": "image_picker",
+            "id": "item_img",
+            "label": "Image"
+          }, {
+            "type": "text",
+            "id": "item_title",
+            "label": "Title",
+            "default": "Title"
+          }, {
+            "type": "richtext",
+            "id": "item_text",
+            "label": "Text"
+          }, {
+            "type": "text",
+            "id": "item_number",
+            "label": "Number",
+            "default": "num"
+          }
+        ]
+      }
+    ],
+    "presets": [
+      {
+        "name": "Stages",
+        "blocks": [
+          {
+            "type": "column"
+          }
+        ]
+      }
+    ]
+  }
+{% endschema %}

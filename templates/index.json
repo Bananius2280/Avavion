@@ -1,5 +1,43 @@
 {
   "sections": {
+    "cfc138cb-140c-4791-969d-c07c5a6e628e": {
+      "type": "slider",
+      "blocks": {
+        "template--15215971631165__cfc138cb-140c-4791-969d-c07c5a6e628e-1686937398ea584e8e-0": {
+          "type": "slide",
+          "settings": {
+            "slide_img": "shopify:\/\/shop_images\/chrisbarbalis223997.jpg"
+          }
+        },
+        "template--15215971631165__cfc138cb-140c-4791-969d-c07c5a6e628e-1686937398ea584e8e-1": {
+          "type": "slide",
+          "settings": {
+            "slide_img": "shopify:\/\/shop_images\/samuelzeller168234.jpg"
+          }
+        },
+        "template--15215971631165__cfc138cb-140c-4791-969d-c07c5a6e628e-1686937398ea584e8e-2": {
+          "type": "slide",
+          "settings": {
+            "slide_img": "shopify:\/\/shop_images\/cherrylaithang138648.jpg"
+          }
+        },
+        "7a3bae85-bf2f-491b-b050-f119511e8d44": {
+          "type": "slide",
+          "settings": {
+            "slide_img": "shopify:\/\/shop_images\/cherrylaithang138648.jpg"
+          }
+        }
+      },
+      "block_order": [
+        "template--15215971631165__cfc138cb-140c-4791-969d-c07c5a6e628e-1686937398ea584e8e-0",
+        "template--15215971631165__cfc138cb-140c-4791-969d-c07c5a6e628e-1686937398ea584e8e-1",
+        "template--15215971631165__cfc138cb-140c-4791-969d-c07c5a6e628e-1686937398ea584e8e-2",
+        "7a3bae85-bf2f-491b-b050-f119511e8d44"
+      ],
+      "settings": {
+        "title": "Примеры разработки интернет магазинов Shopify"
+      }
+    },
     "f47b7ee2-b586-4f3b-a151-075fe8fd7100": {
       "type": "prices",
       "blocks": {
@@ -497,6 +535,7 @@
     }
   },
   "order": [
+    "cfc138cb-140c-4791-969d-c07c5a6e628e",
     "f47b7ee2-b586-4f3b-a151-075fe8fd7100",
     "035f9eea-24b0-41bb-8c70-d505664cde07",
     "317c8762-d8b3-47b8-8a54-81950bc2d6aa",

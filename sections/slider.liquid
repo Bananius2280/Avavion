@@ -1,0 +1,128 @@
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
+{{ 'section-slider.css' | asset_url | stylesheet_tag }}
+
+  <div class="swiper-custom">
+  {%- if section.settings.title != blank -%}
+    <div class="swiper-custom__top">
+      <h2 class="swiper-custom__top--title h1">
+        {{- section.settings.title -}}
+      </h2>
+    </div>
+  {%- endif -%}
+  <!-- Slider main container -->
+  <div class="swiper-custom__bottom">
+    <div class="swiper">
+      <!-- Additional required wrapper -->
+      <div class="swiper-wrapper">
+        <!-- Slides -->
+        {%- for block in section.blocks -%}
+          {%- if block.settings.slide_img != blank -%}
+            <div class="swiper-slide swiper-custom__slide">
+              <img
+                class="swiper-custom__slide--img lazyload"
+                src="{{- block.settings.slide_img | image_url: width: 2000 -}}"
+                alt="{{- block.settings.slide_img.alt | escape -}}"
+                loading="lazy">
+            </div>
+          {%- endif -%}
+        {%- endfor -%}
+      </div>
+      <!-- If we need pagination -->
+      <div class="swiper-pagination"></div>
+
+      <!-- If we need navigation buttons -->
+      <div class="swiper-button-prev"></div>
+      <div class="swiper-button-next"></div>
+
+    </div>
+  </div>
+</div>
+<script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+
+<script>
+  const swiper = new Swiper('.swiper', {
+
+    // Optional parameters
+    direction: 'horizontal',
+    speed: 400,
+    loop: true,
+    slidesPerView: 1.7,
+    centeredSlides: true,
+
+// spaceBetween: 0,
+    autoplay: {
+      delay: 6000
+    },
+
+    breakpoints: { // when window width is >= 320px
+      1200: {
+        spaceBetween: 100
+      },
+      960: {
+        spaceBetween: 80
+      },
+      640: {
+        spaceBetween: 40,
+        slidesPerView: 1.7
+      },
+      360: {
+        spaceBetween: 0,
+        slidesPerView: 1
+      }
+    },
+
+// If we need pagination
+    pagination: {
+      el: '.swiper-pagination',
+      clickable: true
+    },
+
+// Navigation arrows
+    navigation: {
+      nextEl: '.swiper-button-next',
+      prevEl: '.swiper-button-prev'
+    }
+  });
+</script>
+
+{% schema %}
+  {
+    "name": "Slider",
+    "tag": "section",
+    "settings": [
+      {
+        "type": "text",
+        "id": "title",
+        "default": "Title",
+        "label": "Title"
+      }
+    ],
+    "blocks": [
+      {
+        "type": "slide",
+        "name": "Slider",
+        "settings": [
+          {
+            "type": "image_picker",
+            "id": "slide_img",
+            "label": "image"
+          }
+        ]
+      }
+    ],
+    "presets": [
+      {
+        "name": "Slider",
+        "blocks": [
+          {
+            "type": "slide"
+          }, {
+            "type": "slide"
+          }, {
+            "type": "slide"
+          }
+        ]
+      }
+    ]
+  }
+{% endschema %}
