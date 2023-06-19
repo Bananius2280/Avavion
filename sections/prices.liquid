@@ -65,6 +65,56 @@
                   {{- block.settings.item_fifth_title -}}
                 </li>
               {%- endif -%}
+              {%- if block.settings.item_sixth_title != blank -%}
+                <li class="prices-item__bottom--list">
+                  {{- block.settings.item_sixth_title -}}
+                </li>
+              {%- endif -%}
+              {%- if block.settings.item_seventh_title != blank -%}
+                <li class="prices-item__bottom--list">
+                  {{- block.settings.item_seventh_title -}}
+                </li>
+              {%- endif -%}
+              {%- if block.settings.item_eighth_title != blank -%}
+                <li class="prices-item__bottom--list">
+                  {{- block.settings.item_eighth_title -}}
+                </li>
+              {%- endif -%}
+              {%- if block.settings.item_ninth_title != blank -%}
+                <li class="prices-item__bottom--list">
+                  {{- block.settings.item_ninth_title -}}
+                </li>
+              {%- endif -%}
+              {%- if block.settings.item_tenth_title != blank -%}
+                <li class="prices-item__bottom--list">
+                  {{- block.settings.item_tenth_title -}}
+                </li>
+              {%- endif -%}
+              {%- if block.settings.item_eleventh_title != blank -%}
+                <li class="prices-item__bottom--list">
+                  {{- block.settings.item_eleventh_title -}}
+                </li>
+              {%- endif -%}
+              {%- if block.settings.item_twelfth_title != blank -%}
+                <li class="prices-item__bottom--list">
+                  {{- block.settings.item_twelfth_title -}}
+                </li>
+              {%- endif -%}
+              {%- if block.settings.item_thirteenth_title != blank -%}
+                <li class="prices-item__bottom--list">
+                  {{- block.settings.item_thirteenth_title -}}
+                </li>
+              {%- endif -%}
+              {%- if block.settings.item_fourteenth_title != blank -%}
+                <li class="prices-item__bottom--list">
+                  {{- block.settings.item_fourteenth_title -}}
+                </li>
+              {%- endif -%}
+              {%- if block.settings.item_fifteenth_title != blank -%}
+                <li class="prices-item__bottom--list">
+                  {{- block.settings.item_fifteenth_title -}}
+                </li>
+              {%- endif -%}
             </ul>
             {%- if block.settings.item_btn_link != blank -%}
               <a class="prices-item__bottom--btn" href="{{- block.settings.item_btn_link -}}">
@@ -99,50 +149,103 @@
     "blocks": [
       {
         "type": "column",
-        "name": "Price",
+        "name": "Column",
         "settings": [
           {
             "type": "image_picker",
             "id": "item_img",
-            "label": "Price image"
+            "label": "Image"
           },
           {
             "type": "text",
             "id": "item_title",
             "default": "Title",
-            "label": "Price title"
+            "label": "Title"
           },
           {
             "type": "text",
             "id": "item_text",
             "default": "Title",
-            "label": "Price text"
+            "label": "Text"
           },
           {
+            "type": "header",
+            "content": "Lists"
+          }, {
             "type": "text",
             "id": "item_first_title",
             "default": "Title",
-            "label": "Price first title"
+            "label": "1 list"
           }, {
             "type": "text",
             "id": "item_second_title",
             "default": "Title",
-            "label": "Price second title"
+            "label": "2 list"
           }, {
             "type": "text",
             "id": "item_third_title",
             "default": "Title",
-            "label": "Price third title"
+            "label": "3 list"
           }, {
             "type": "text",
             "id": "item_fourth_title",
             "default": "Title",
-            "label": "Price fourth title"
+            "label": "4 list"
           }, {
             "type": "text",
             "id": "item_fifth_title",
             "default": "Title",
-            "label": "Price fifth title"
+            "label": "5 list"
+          }, {
+            "type": "text",
+            "id": "item_sixth_title",
+            "default": "Title",
+            "label": "6 list"
+          }, {
+            "type": "text",
+            "id": "item_seventh_title",
+            "default": "Title",
+            "label": "7 list"
+          }, {
+            "type": "text",
+            "id": "item_eighth_title",
+            "default": "Title",
+            "label": "8 list"
+          }, {
+            "type": "text",
+            "id": "item_ninth_title",
+            "default": "Title",
+            "label": "9 list"
+          }, {
+            "type": "text",
+            "id": "item_tenth_title",
+            "default": "Title",
+            "label": "10 list"
+          }, {
+            "type": "text",
+            "id": "item_eleventh_title",
+            "default": "Title",
+            "label": "11 list"
+          }, {
+            "type": "text",
+            "id": "item_twelfth_title",
+            "default": "Title",
+            "label": "12 list"
+          }, {
+            "type": "text",
+            "id": "item_thirteenth_title",
+            "default": "Title",
+            "label": "13 list"
+          }, {
+            "type": "text",
+            "id": "item_fourteenth_title",
+            "default": "Title",
+            "label": "14 list"
+          }, {
+            "type": "text",
+            "id": "item_fifteenth_title",
+            "default": "Title",
+            "label": "15 list"
           }, {
             "type": "text",
             "id": "item_btn_text",

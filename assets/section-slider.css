@@ -59,7 +59,6 @@
   margin: auto;
   position: absolute;
   top: 12.5px;
-
 }
 
 .swiper-button-next::after {
@@ -126,9 +125,9 @@
     padding: 22px 0 0;
   }
 
-    .swiper-custom__top--title {
-      margin: 60px 0 0;
-    }
+  .swiper-custom__top--title {
+    margin: 60px 0 0;
+  }
 }
 
 @media only screen and (max-width:639px) {

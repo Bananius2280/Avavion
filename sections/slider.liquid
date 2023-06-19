@@ -1,4 +1,4 @@
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css" />
 {{ 'section-slider.css' | asset_url | stylesheet_tag }}
 
   <div class="swiper-custom">
@@ -10,35 +10,34 @@
     </div>
   {%- endif -%}
   <!-- Slider main container -->
-  <div class="swiper-custom__bottom">
-    <div class="swiper">
-      <!-- Additional required wrapper -->
-      <div class="swiper-wrapper">
-        <!-- Slides -->
-        {%- for block in section.blocks -%}
-          {%- if block.settings.slide_img != blank -%}
-            <div class="swiper-slide swiper-custom__slide">
-              <img
-                class="swiper-custom__slide--img lazyload"
-                src="{{- block.settings.slide_img | image_url: width: 2000 -}}"
-                alt="{{- block.settings.slide_img.alt | escape -}}"
-                loading="lazy">
-            </div>
-          {%- endif -%}
-        {%- endfor -%}
+    <div class="swiper-custom__bottom">
+      <div class="swiper">
+        <!-- Additional required wrapper -->
+        <div class="swiper-wrapper">
+          <!-- Slides -->
+          {%- for block in section.blocks -%}
+            {%- if block.settings.slide_img != blank -%}
+              <div class="swiper-slide swiper-custom__slide">
+                <img
+                  class="swiper-custom__slide--img lazyload"
+                  src="{{- block.settings.slide_img | image_url: width: 2000 -}}"
+                  alt="{{- block.settings.slide_img.alt | escape -}}"
+                  loading="lazy">
+              </div>
+            {%- endif -%}
+          {%- endfor -%}
+        </div>
+        <!-- If we need pagination -->
+        <div class="swiper-pagination"></div>
+
+        <!-- If we need navigation buttons -->
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-button-next"></div>
+
       </div>
-      <!-- If we need pagination -->
-      <div class="swiper-pagination"></div>
-
-      <!-- If we need navigation buttons -->
-      <div class="swiper-button-prev"></div>
-      <div class="swiper-button-next"></div>
-
     </div>
-  </div>
 </div>
-<script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
-
+<script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
 <script>
   const swiper = new Swiper('.swiper', {
 
@@ -48,8 +47,6 @@
     loop: true,
     slidesPerView: 1.7,
     centeredSlides: true,
-
-// spaceBetween: 0,
     autoplay: {
       delay: 6000
     },
@@ -100,7 +97,7 @@
     "blocks": [
       {
         "type": "slide",
-        "name": "Slider",
+        "name": "Slide",
         "settings": [
           {
             "type": "image_picker",

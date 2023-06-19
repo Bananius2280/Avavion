@@ -2,29 +2,39 @@
 
 <div class="stages">
   <div class="page-width">
-    <h2 class="stages-title h1">
-      {{ section.settings.title }}
-    </h2>
-    <div class="stages-items">
+    {%- if section.settings.title != blank -%}
+      <h2 class="stages-title h1">
+        {{ section.settings.title }}
+      </h2>
+    {%- endif -%}
+    <div class="stages-items{% if section.blocks.size == 2 or section.blocks.size == 3 or section.blocks.size == 1 %} stages-items__last{% endif %}">
       {%- for block in section.blocks -%}
         <div class="stages-item{% if forloop.index == 2 %} stages-item__right{% endif %}">
           <div class="stages-item__img--box{% if forloop.index == 2 %} stages-item__img--box-right{% endif %}{% if forloop.index == 3 %} stages-item__img--box-left{% endif %}">
-            <img
-              class="stages-item--img lazyload"
-              src="{{- block.settings.item_img | image_url: width: 160 -}}"
-              alt="{{- block.settings.item_img.alt | escape -}}"
-              loading="lazy">
+            {%- if block.settings.item_img != blank -%}
+              <img
+                class="stages-item--img lazyload"
+                src="{{- block.settings.item_img | image_url: width: 160 -}}"
+                alt="{{- block.settings.item_img.alt | escape -}}"
+                loading="lazy">
+            {%- endif -%}
           </div>
-          <div class="stages-item__box{% if forloop.index == 2 %} stages-item__box--right{% endif %}{% if forloop.index == 3 %} stages-item__box--last{% endif %}">
-            <h4 class="stages-item__title">
-              {{- block.settings.item_title -}}
-            </h4>
-            <div class="stages-item__text">
-              {{- block.settings.item_text -}}
-            </div>
-            <span class="stages-item__number{% if forloop.index == 2 %} stages-item__number--right{% endif %}">
-              {{- block.settings.item_number -}}
-            </span>
+          <div class="stages-item__box{% if forloop.index == 2 %} stages-item__box--right{% endif %}">
+            {%- if block.settings.item_title != blank -%}
+              <h4 class="stages-item__title">
+                {{- block.settings.item_title -}}
+              </h4>
+            {%- endif -%}
+            {%- if block.settings.item_text != blank -%}
+              <div class="stages-item__text">
+                {{- block.settings.item_text -}}
+              </div>
+            {%- endif -%}
+            {%- if block.settings.item_number != blank -%}
+              <span class="stages-item__number{% if forloop.index == 2 %} stages-item__number--right{% endif %}">
+                {{- forloop.index -}}
+              </span>
+            {%- endif -%}
           </div>
         </div>
       {%- endfor -%}

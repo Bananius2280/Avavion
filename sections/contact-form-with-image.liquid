@@ -1,4 +1,4 @@
-{{ 'section-contact-form-custom.css' | asset_url | stylesheet_tag }}
+{{ 'section-contact-form-with-image.css' | asset_url | stylesheet_tag }}
 
 <div class="contact-form">
   <div class="contact-form__inner">
@@ -98,7 +98,7 @@
           <label class="field__label" for="ContactForm-phone">{{ 'templates.contact.form.phone' | t }}</label>
         </div>
         <div class="contact__button">
-          <button type="submit" class="contact-form__right--btn">
+          <button type="submit" class="contact-form__right--btn button button--secondary">
             {{ 'templates.contact.form.send' | t }}
           </button>
         </div>
@@ -111,7 +111,7 @@
 
 {% schema %}
   {
-    "name": "Contact form custom",
+    "name": "Contact form with image",
     "tag": "section",
     "settings": [
       {
@@ -131,7 +131,7 @@
     ],
     "presets": [
       {
-        "name": "Contact form custom"
+        "name": "Contact form with image"
       }
     ]
   }
