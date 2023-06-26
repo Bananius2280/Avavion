@@ -30,11 +30,9 @@
                 {{- block.settings.item_text -}}
               </div>
             {%- endif -%}
-            {%- if block.settings.item_number != blank -%}
               <span class="stages-item__number{% if forloop.index == 2 %} stages-item__number--right{% endif %}">
                 {{- forloop.index -}}
               </span>
-            {%- endif -%}
           </div>
         </div>
       {%- endfor -%}
@@ -73,11 +71,6 @@
             "type": "richtext",
             "id": "item_text",
             "label": "Text"
-          }, {
-            "type": "text",
-            "id": "item_number",
-            "label": "Number",
-            "default": "num"
           }
         ]
       }

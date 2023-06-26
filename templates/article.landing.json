@@ -34,9 +34,9 @@
         "ab4cbb80-b3ba-400a-85b8-8b0b8f282502"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/image.jpg",
-        "image_height": "medium",
-        "adapt_height_first_image": true,
+        "image": "shopify:\/\/shop_images\/banner.jpg",
+        "image_height": "small",
+        "adapt_height_first_image": false,
         "desktop_text_box_position": "center",
         "show_text_box": true,
         "image_overlay_opacity": 0,
@@ -159,7 +159,7 @@
         "template--15199260344381__69544ee1-bb44-402f-8455-d96a68582ba1-16844861695ad09b25-2"
       ],
       "custom_css": [
-
+        ".multicolumn-card {background-color: rgba()"
       ],
       "settings": {
         "title": "",
@@ -174,6 +174,7 @@
     },
     "a21df663-506a-4896-85a0-f20d320312bd": {
       "type": "rich-text",
+      "disabled": true,
       "blocks": {
         "template--15199260344381__a21df663-506a-4896-85a0-f20d320312bd-16866046259b2834f1-0": {
           "type": "heading",
@@ -209,8 +210,46 @@
         "full_width": true
       }
     },
+    "5bda12c6-2314-4750-8f93-73ba96ab6251": {
+      "type": "slider",
+      "blocks": {
+        "template--15199260344381__5bda12c6-2314-4750-8f93-73ba96ab6251-16871657475a861440-0": {
+          "type": "slide",
+          "settings": {
+          }
+        },
+        "template--15199260344381__5bda12c6-2314-4750-8f93-73ba96ab6251-16871657475a861440-1": {
+          "type": "slide",
+          "settings": {
+            "slide_img": "shopify:\/\/shop_images\/samuelzeller168234.jpg"
+          }
+        },
+        "template--15199260344381__5bda12c6-2314-4750-8f93-73ba96ab6251-16871657475a861440-2": {
+          "type": "slide",
+          "settings": {
+            "slide_img": "shopify:\/\/shop_images\/cherrylaithang138648.jpg"
+          }
+        },
+        "5943dd21-3ddd-472d-b05c-9f8c8f049b9b": {
+          "type": "slide",
+          "settings": {
+            "slide_img": "shopify:\/\/shop_images\/samuelzeller168234.jpg"
+          }
+        }
+      },
+      "block_order": [
+        "template--15199260344381__5bda12c6-2314-4750-8f93-73ba96ab6251-16871657475a861440-0",
+        "template--15199260344381__5bda12c6-2314-4750-8f93-73ba96ab6251-16871657475a861440-1",
+        "template--15199260344381__5bda12c6-2314-4750-8f93-73ba96ab6251-16871657475a861440-2",
+        "5943dd21-3ddd-472d-b05c-9f8c8f049b9b"
+      ],
+      "settings": {
+        "title": "Примеры разработки интернет магазинов Shopify"
+      }
+    },
     "e8dfe967-ba19-44e9-9719-69810c2afd34": {
       "type": "image-banner",
+      "disabled": true,
       "blocks": {
         "template--15199260344381__e8dfe967-ba19-44e9-9719-69810c2afd34-1686605081678b678c-0": {
           "type": "heading",
@@ -308,40 +347,133 @@
         "swipe_on_mobile": false
       }
     },
-    "95a856c5-3a02-483e-8be6-ee0bf2a962ba": {
-      "type": "rich-text",
+    "07a4d1a2-3458-4965-b570-f88970561466": {
+      "type": "stages",
       "blocks": {
-        "template--15199260344381__95a856c5-3a02-483e-8be6-ee0bf2a962ba-16866046259b2834f1-0": {
-          "type": "heading",
+        "template--15199260344381__07a4d1a2-3458-4965-b570-f88970561466-1687165810d5bc9206-0": {
+          "type": "column",
           "settings": {
-            "heading": "Интернет-магазин Shopify тарифы",
-            "heading_size": "h1"
+            "item_img": "shopify:\/\/shop_images\/account.png",
+            "item_title": "Настройка разработка вашего интернет-магазина",
+            "item_text": "<ul><li>Разработка дизайна и подбор темы<\/li><li>Наполнение товарами<\/li><li>Оформление главной страницы и страниц коллекций<\/li><li>Подключение платежных шлюзов для <strong>Shopify<\/strong><\/li><li>Настройка доставки<\/li><\/ul>"
           }
         },
-        "template--15199260344381__95a856c5-3a02-483e-8be6-ee0bf2a962ba-16866046259b2834f1-1": {
-          "type": "text",
+        "3bdcbe19-33e7-4ac3-97cb-a9a092162a3a": {
+          "type": "column",
           "settings": {
-            "text": "<p>Стоимость интернет магазина зависит от сложности и желаемого функционала. Мы предлагаем 3 тарифа для удобства наших клиентов<\/p>"
+            "item_img": "shopify:\/\/shop_images\/tariff.png",
+            "item_title": "Настройка функциональности магазина Shopify",
+            "item_text": "<ul><li>Установка необходимых приложения из Apps Shopify для расширения функциональности вашего магазина.<\/li><li>Настройте интеграции с социальными сетями и маркетплейсами для упрощения продвижения и управления вашими товарами.<\/li><\/ul>"
           }
         },
-        "template--15199260344381__95a856c5-3a02-483e-8be6-ee0bf2a962ba-16866046259b2834f1-2": {
-          "type": "button",
-          "disabled": true,
+        "5920b1f0-5fa6-4750-9040-afb47875e1f7": {
+          "type": "column",
           "settings": {
-            "button_label": "Button label",
-            "button_link": "",
-            "button_style_secondary": false
+            "item_img": "shopify:\/\/shop_images\/free-icon-new-produc.png",
+            "item_title": "Завершение разработки вашего интернет-магазина",
+            "item_text": "<ul><li>Создание страниц и блога (основные информационные страницы, такие как \"О нас\", \"Условия обслуживания\" и \"Контакты\")<\/li><li><strong>Тестирование и запуск магазина<\/strong><\/li><\/ul>"
           }
         }
       },
       "block_order": [
-        "template--15199260344381__95a856c5-3a02-483e-8be6-ee0bf2a962ba-16866046259b2834f1-0",
-        "template--15199260344381__95a856c5-3a02-483e-8be6-ee0bf2a962ba-16866046259b2834f1-1",
-        "template--15199260344381__95a856c5-3a02-483e-8be6-ee0bf2a962ba-16866046259b2834f1-2"
+        "template--15199260344381__07a4d1a2-3458-4965-b570-f88970561466-1687165810d5bc9206-0",
+        "3bdcbe19-33e7-4ac3-97cb-a9a092162a3a",
+        "5920b1f0-5fa6-4750-9040-afb47875e1f7"
+      ],
+      "custom_css": [
+        ".stages-item__text ul, .stages-item__text {text-align: left}"
       ],
       "settings": {
-        "color_scheme": "background-1",
-        "full_width": true
+        "title": "Этапы создания интернет-магазина"
+      }
+    },
+    "507162a9-5f0c-4e81-9129-3aacf1a60e3c": {
+      "type": "prices",
+      "blocks": {
+        "template--15199260344381__507162a9-5f0c-4e81-9129-3aacf1a60e3c-168716458508f0af6c-0": {
+          "type": "column",
+          "settings": {
+            "item_img": "shopify:\/\/shop_images\/061.svg",
+            "item_title": "One hour",
+            "item_text": "$12 \/ person",
+            "item_first_title": "Free WI-FI",
+            "item_second_title": "Hot desk",
+            "item_third_title": "Free printer",
+            "item_fourth_title": "",
+            "item_fifth_title": "",
+            "item_sixth_title": "",
+            "item_seventh_title": "",
+            "item_eighth_title": "",
+            "item_ninth_title": "",
+            "item_tenth_title": "",
+            "item_eleventh_title": "",
+            "item_twelfth_title": "",
+            "item_thirteenth_title": "",
+            "item_fourteenth_title": "",
+            "item_fifteenth_title": "",
+            "item_btn_text": "Консультация",
+            "item_btn_link": "shopify:\/\/pages\/question-form"
+          }
+        },
+        "93ebc4ef-e834-4b86-a097-5edf41297476": {
+          "type": "column",
+          "settings": {
+            "item_img": "shopify:\/\/shop_images\/05.svg",
+            "item_title": "All day",
+            "item_text": "$50 \/ person",
+            "item_first_title": "Free WI-FI2",
+            "item_second_title": "Hot desk",
+            "item_third_title": "Free printer",
+            "item_fourth_title": "hours in meeting room",
+            "item_fifth_title": "Tea and coffee",
+            "item_sixth_title": "",
+            "item_seventh_title": "",
+            "item_eighth_title": "",
+            "item_ninth_title": "",
+            "item_tenth_title": "",
+            "item_eleventh_title": "",
+            "item_twelfth_title": "",
+            "item_thirteenth_title": "",
+            "item_fourteenth_title": "",
+            "item_fifteenth_title": "",
+            "item_btn_text": "Консультация",
+            "item_btn_link": "shopify:\/\/pages\/question-form"
+          }
+        },
+        "3eed95ed-c89e-4bbb-8cb0-833ce9b09aed": {
+          "type": "column",
+          "settings": {
+            "item_img": "shopify:\/\/shop_images\/04.svg",
+            "item_title": "Pro",
+            "item_text": "$199 \/ person",
+            "item_first_title": "Free WI-FI",
+            "item_second_title": "Dedicated desk",
+            "item_third_title": "Free printer",
+            "item_fourth_title": "5 hours in meeting room",
+            "item_fifth_title": "Tea and coffee",
+            "item_sixth_title": "",
+            "item_seventh_title": "",
+            "item_eighth_title": "",
+            "item_ninth_title": "",
+            "item_tenth_title": "",
+            "item_eleventh_title": "",
+            "item_twelfth_title": "",
+            "item_thirteenth_title": "",
+            "item_fourteenth_title": "",
+            "item_fifteenth_title": "",
+            "item_btn_text": "Консультация",
+            "item_btn_link": "shopify:\/\/pages\/question-form"
+          }
+        }
+      },
+      "block_order": [
+        "template--15199260344381__507162a9-5f0c-4e81-9129-3aacf1a60e3c-168716458508f0af6c-0",
+        "93ebc4ef-e834-4b86-a097-5edf41297476",
+        "3eed95ed-c89e-4bbb-8cb0-833ce9b09aed"
+      ],
+      "settings": {
+        "title": "Интернет-магазин Shopify тарифы",
+        "text": "Стоимость интернет магазина зависит от сложности и желаемого функционала. Мы предлагаем 3 тарифа для удобства наших клиентов"
       }
     },
     "3cab6e88-d4cf-4853-bfe9-9103349c9598": {
@@ -378,10 +510,9 @@
 
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/2.png",
-        "height": "adapt",
+        "height": "small",
         "color_scheme": "background-2",
-        "layout": "image_first"
+        "layout": "text_first"
       }
     },
     "2f120dec-f449-48bd-aeda-9c658d2fbe53": {
@@ -445,10 +576,12 @@
         "swipe_on_mobile": false
       }
     },
-    "70379e93-5b45-4323-92b6-841c03dda358": {
-      "type": "contact-form",
+    "4fc25a06-f97f-4654-9d91-0d39aa856116": {
+      "type": "contact-form-with-image",
       "settings": {
-        "heading": "Заказать разработку сайта и рассчитать стоимость"
+        "image_left": "shopify:\/\/shop_images\/photo_2023-06-19_22-57-29.jpg",
+        "heading": "Свяжитесь с нами",
+        "text": "Заполните форму для получения консультации по разработке и созданию сайта на Shopify."
       }
     }
   },
@@ -458,11 +591,13 @@
     "main",
     "69544ee1-bb44-402f-8455-d96a68582ba1",
     "a21df663-506a-4896-85a0-f20d320312bd",
+    "5bda12c6-2314-4750-8f93-73ba96ab6251",
     "e8dfe967-ba19-44e9-9719-69810c2afd34",
     "26d5b6dd-0171-4eb9-a4e5-4d6a3d1604ff",
-    "95a856c5-3a02-483e-8be6-ee0bf2a962ba",
+    "07a4d1a2-3458-4965-b570-f88970561466",
+    "507162a9-5f0c-4e81-9129-3aacf1a60e3c",
     "3cab6e88-d4cf-4853-bfe9-9103349c9598",
     "2f120dec-f449-48bd-aeda-9c658d2fbe53",
-    "70379e93-5b45-4323-92b6-841c03dda358"
+    "4fc25a06-f97f-4654-9d91-0d39aa856116"
   ]
 }

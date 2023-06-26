@@ -8,7 +8,7 @@
 }
 
 .contact-form__right {
-  padding: 6rem 7rem 7rem;
+  padding: 0 7rem;
 }
 
 .contact-form__right--title {
@@ -29,6 +29,7 @@
   width: 100%;
   display: block;
   object-fit: cover;
+  height: 550px;
 }
 
 .contact-form__right .field__input {
@@ -85,7 +86,7 @@
   }
 
   .contact-form__left--img {
-    height: 700px;
+    height: 400px;
   }
 
   .contact-form__right {
@@ -102,4 +103,10 @@
   .contact-form__right .contact__button button {
     width: 100%;
   }
+}
+
+@media only screen and (max-width:450px) {
+  .contact-form__left--img {
+      height: 250px;
+    }
 }

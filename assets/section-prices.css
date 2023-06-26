@@ -1,5 +1,5 @@
 .prices {
-  padding: 150px 0;
+  padding: 50px 0;
 }
 
 .prices-top {
@@ -139,9 +139,9 @@
     display: block;
   }
 
-  .prices {
+/*   .prices {
     padding: 75px 0;
-  }
+  } */
 
   .prices-item+.prices-item {
     margin-left: auto;
