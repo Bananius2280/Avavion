@@ -1,7 +1,7 @@
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css" />
 {{ 'section-slider.css' | asset_url | stylesheet_tag }}
 
-  <div class="swiper-custom">
+  <div id="swiper-slider" class="swiper-custom">
   {%- if section.settings.title != blank -%}
     <div class="swiper-custom__top">
       <h2 class="swiper-custom__top--title h1">

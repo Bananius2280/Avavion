@@ -108,7 +108,7 @@
     </div>
   {%- endif -%}  
   
-  <div class='image-with-text__grid grid page-width'>
+  <div class='image-with-text__grid image-with-text__grid--custom grid page-width'>
   <div class="banner__content banner__content--{{ section.settings.desktop_text_box_position }}">
     <div class="banner__box color-{{ section.settings.color_scheme }}">
       {%- for block in section.blocks -%}
@@ -122,24 +122,61 @@
               <span>{{ block.settings.text | escape }}</span>
             </div>
         {%- endcase -%}
+        
+      {%- endfor -%}
+      {%- if section.settings.buttons_position_left -%}
+    <div class="banner__box banner__box--custom color-{{ section.settings.color_scheme }}">
+      {%- for block in section.blocks -%}
+            <div class="banner__buttons{% if block.settings.button_label_1 != blank and block.settings.button_label_2 != blank %} banner__buttons--multiple{% endif %}" {{ block.shopify_attributes }}>
+              {%- if block.settings.button_label_1 != blank -%}
+                <a{% if block.settings.button_link_1 == blank %} role="link" aria-disabled="true"{% else %} href="{{ block.settings.button_link_1 }}"{% endif %} class="button{% if block.settings.button_style_secondary_1 %} button--secondary{% else %} button--primary{% endif %}{% if block.settings.button_border_1 == true %} banner__button-border--true{% else %} banner__button-border--false{% endif %}" style="color:{{ block.settings.button_color_1 }}; background-color:{{ block.settings.background_color_1 }};">{{ block.settings.button_label_1 | escape }}</a>
+              {%- endif -%}
+              {%- if block.settings.button_label_2 != blank -%}
+                <a{% if block.settings.button_link_2 == blank %} role="link" aria-disabled="true"{% else %} href="{{ block.settings.button_link_2 }}"{% endif %} class="button{% if block.settings.button_style_secondary_2 %} button--secondary{% else %} button--primary{% endif %}{% if block.settings.button_border_2 == true %} banner__button-border--true{% else %} banner__button-border--false{% endif %}" style="color:{{ block.settings.button_color_2 }}; background-color:{{ block.settings.background_color_2 }};">{{ block.settings.button_label_2 | escape }}</a>
+              {%- endif -%}
+            </div>
       {%- endfor -%}
     </div>
-  </div>
-  <div class="banner__content banner__content--{{ section.settings.desktop_text_box_position }}">
-    <div class="banner__box color-{{ section.settings.color_scheme }}">
+{%- endif -%}  
+{%- if section.settings.buttons_position_left_mob -%}
+<div class="banner__box banner__box--custom banner__box--custom-mobile color-{{ section.settings.color_scheme }}">
       {%- for block in section.blocks -%}
         {%- case block.type -%}
           {%- when 'buttons' -%}
             <div class="banner__buttons{% if block.settings.button_label_1 != blank and block.settings.button_label_2 != blank %} banner__buttons--multiple{% endif %}" {{ block.shopify_attributes }}>
               {%- if block.settings.button_label_1 != blank -%}
-                <a{% if block.settings.button_link_1 == blank %} role="link" aria-disabled="true"{% else %} href="{{ block.settings.button_link_1 }}"{% endif %} class="button{% if block.settings.button_style_secondary_1 %} button--secondary{% else %} button--primary{% endif %}">{{ block.settings.button_label_1 | escape }}</a>
+                <a{% if block.settings.button_link_1 == blank %} role="link" aria-disabled="true"{% else %} href="{{ block.settings.button_link_1 }}"{% endif %} class="button{% if block.settings.button_style_secondary_1 %} button--secondary{% else %} button--primary{% endif %}{% if block.settings.button_border_1 == true %} banner__button-border--true{% else %} banner__button-border--false{% endif %}" style="color:{{ block.settings.button_color_1 }}; background-color:{{ block.settings.background_color_1 }};">{{ block.settings.button_label_1 | escape }}</a>
+              {%- endif -%}
+              {%- if block.settings.button_label_2 != blank -%}
+                <a{% if block.settings.button_link_2 == blank %} role="link" aria-disabled="true"{% else %} href="{{ block.settings.button_link_2 }}"{% endif %} class="button{% if block.settings.button_style_secondary_2 %} button--secondary{% else %} button--primary{% endif %}{% if block.settings.button_border_2 == true %} banner__button-border--true{% else %} banner__button-border--false{% endif %}" style="color:{{ block.settings.button_color_2 }}; background-color:{{ block.settings.background_color_2 }};">{{ block.settings.button_label_2 | escape }}</a>
               {%- endif -%}
             </div>
         {%- endcase -%}
       {%- endfor -%}
     </div>
+    {%- endif -%} 
+    </div>
+
   </div>
   </div>
+
+{%- if section.settings.buttons_position_floating -%}
+  <div class="banner__box banner__buttons--custom color-{{ section.settings.color_scheme }} banner__buttons--{{ section.settings.buttons_position }}">
+      {%- for block in section.blocks -%}
+        {%- case block.type -%}
+          {%- when 'buttons' -%}
+            <div class="banner__buttons {% if block.settings.button_label_1 != blank and block.settings.button_label_2 != blank %} banner__buttons--multiple{% endif %}" {{ block.shopify_attributes }}>
+              {%- if block.settings.button_label_1 != blank -%}
+                <a{% if block.settings.button_link_1 == blank %} role="link" aria-disabled="true"{% else %} href="{{ block.settings.button_link_1 }}"{% endif %} class="button{% if block.settings.button_style_secondary_1 %} button--secondary{% else %} button--primary{% endif %}{% if block.settings.button_border_1 == true %} banner__button-border--true{% else %} banner__button-border--false{% endif %}" style="color:{{ block.settings.button_color_1 }}; background-color:{{ block.settings.background_color_1 }};">{{ block.settings.button_label_1 | escape }}</a>
+              {%- endif -%}
+              {%- if block.settings.button_label_2 != blank -%}
+                <a{% if block.settings.button_link_2 == blank %} role="link" aria-disabled="true"{% else %} href="{{ block.settings.button_link_2 }}"{% endif %} class="button{% if block.settings.button_style_secondary_2 %} button--secondary{% else %} button--primary{% endif %}{% if block.settings.button_border_2 == true %} banner__button-border--true{% else %} banner__button-border--false{% endif %}" style="color:{{ block.settings.button_color_2 }}; background-color:{{ block.settings.background_color_2 }}; ">{{ block.settings.button_label_2 | escape }}</a>
+              {%- endif -%}
+            </div>
+        {%- endcase -%}
+      {%- endfor -%}
+    </div>
+  {%- endif -%}  
 </div>
 
 {% schema %}
@@ -258,6 +295,74 @@
     },
     {
       "type": "header",
+      "content": "Buttons"
+    },
+    {
+      "type": "checkbox",
+      "id": "buttons_position_left",
+      "label": "Enable left buttons",
+      "default": false
+    },
+    {
+      "type": "checkbox",
+      "id": "buttons_position_floating",
+      "label": "Enable floating buttons",
+      "info": "Works up to 749 px",
+      "default": false
+    },
+    {
+      "type": "checkbox",
+      "id": "buttons_position_left_mob",
+      "label": "Enable buttons on mobile",
+      "info": "Include only with floating buttons",
+      "default": false
+    },
+    {
+      "type": "select",
+      "id": "buttons_position",
+      "label": "Buttons floating position",
+      "options": [
+        {
+          "value": "top",
+          "label": "Top"
+        },
+        {
+          "value": "top_left",
+          "label": "Top left"
+        },
+        {
+          "value": "top_right",
+          "label": "Top right"
+        },
+        {
+          "value": "center",
+          "label": "Center"
+        },
+        {
+          "value": "center_left",
+          "label": "Center left"
+        },
+        {
+          "value": "center_right",
+          "label": "Center right"
+        },
+        {
+          "value": "bottom",
+          "label": "Bottom"
+        },
+        {
+          "value": "bottom_right",
+          "label": "Bottom right"
+        },
+        {
+          "value": "bottom_left",
+          "label": "Bottom left"
+        }
+      ],
+        "default": "center"
+    },
+    {
+      "type": "header",
       "content": "t:sections.image-banner.settings.header.content"
     },
     {
@@ -340,6 +445,24 @@
           "label": "t:sections.image-banner.blocks.buttons.settings.button_style_secondary_1.label"
         },
         {
+          "type": "checkbox",
+          "id": "button_border_1",
+          "default": false,
+          "label": "First button on border"
+        },
+        {
+          "type": "color",
+          "id": "button_color_1",
+          "label": "First button color",
+          "default": "#000"
+        },
+        {
+          "type": "color",
+          "id": "background_color_1",
+          "label": "First button background",
+          "default": "#fff"
+        },
+        {
           "type": "text",
           "id": "button_label_2",
           "default": "Button label",
@@ -356,6 +479,24 @@
           "id": "button_style_secondary_2",
           "default": false,
           "label": "t:sections.image-banner.blocks.buttons.settings.button_style_secondary_2.label"
+        },
+        {
+          "type": "checkbox",
+          "id": "button_border_2",
+          "default": false,
+          "label": "Second button on border"
+        },
+        {
+          "type": "color",
+          "id": "button_color_2",
+          "label": "Second button color",
+          "default": "#000"
+        },
+        {
+          "type": "color",
+          "id": "background_color_2",
+          "label": "Second button background",
+          "default": "#fff"
         }
       ]
     }

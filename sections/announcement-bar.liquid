@@ -1,3 +1,4 @@
+{%- if template.suffix == landing -%}
 {%- for block in section.blocks -%}
   {%- case block.type -%}
     {%- when 'announcement' -%}
@@ -28,6 +29,7 @@
   }
   {%- endfor -%}
 <style>
+{%- endif -%}
 {%- endif -%}
 
 {% schema %}

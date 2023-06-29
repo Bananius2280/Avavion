@@ -1,5 +1,20 @@
 {
   "sections": {
+    "4a51e163-5799-4449-a462-a15313bdece2": {
+      "type": "landing-header",
+      "settings": {
+        "color_scheme": "background-1",
+        "logo": "shopify:\/\/shop_images\/logo-1-blue-white_2_2x_add8bcc4-9169-4ee8-851b-863156bc0ce1.png",
+        "logo_width": 220,
+        "logo_position": "middle-left",
+        "menu": "landing-menu",
+        "show_line_separator": true,
+        "linklist_buttons": "",
+        "button_text": "Консультация",
+        "button_link": "shopify:\/\/pages\/brief-for-a-new-shopify-store",
+        "trm_languages_for_domain": true
+      }
+    },
     "fb5e5b71-0a64-44f4-8a92-1376ab215479": {
       "type": "image-banner-v2",
       "blocks": {
@@ -22,8 +37,8 @@
             "button_label_1": "Заказать сайт",
             "button_link_1": "#",
             "button_style_secondary_1": false,
-            "button_label_2": "Button label",
-            "button_link_2": "",
+            "button_label_2": "Заказать сайт",
+            "button_link_2": "shopify:\/\/blogs\/shopify-uk",
             "button_style_secondary_2": false
           }
         }
@@ -381,7 +396,7 @@
         "5920b1f0-5fa6-4750-9040-afb47875e1f7"
       ],
       "custom_css": [
-        ".stages-item__text ul, .stages-item__text {text-align: left}"
+        ".stages-item__text ul,.stages-item__text {text-align: left;}"
       ],
       "settings": {
         "title": "Этапы создания интернет-магазина"
@@ -586,6 +601,7 @@
     }
   },
   "order": [
+    "4a51e163-5799-4449-a462-a15313bdece2",
     "fb5e5b71-0a64-44f4-8a92-1376ab215479",
     "2509f06f-f1f6-4fb4-90f2-755fb97f5c7f",
     "main",
