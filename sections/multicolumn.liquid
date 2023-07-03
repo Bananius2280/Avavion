@@ -2,12 +2,17 @@
 <link rel="stylesheet" href="{{ 'component-slider.css' | asset_url }}" media="print" onload="this.media='all'">
 <noscript>{{ 'component-slider.css' | asset_url | stylesheet_tag }}</noscript>
 
-<div class="multicolumn background-{{ section.settings.background_style }}{% if section.settings.title == blank %} no-heading{% endif %}">
+<div class="multicolumn{% if template.suffix == 'landing' %} multicolumn-background{% endif %} background-{{ section.settings.background_style }}{% if section.settings.title == blank %} no-heading{% endif %}">
   <div class="page-width">
-    <div class="title-wrapper-with-link title-wrapper--self-padded-mobile{% if section.settings.title == blank %} title-wrapper-with-link--no-heading{% endif %}">
-      <h2 class="title">
+    <div class="title-wrapper-with-link multicolumn-wrapper__box title-wrapper--self-padded-mobile{% if section.settings.title == blank %} title-wrapper-with-link--no-heading{% endif %}">
+        <div class="multicolumn-text__box">
+          <h2 class="title h1 multicolumn-title">
         {{ section.settings.title | escape }}
       </h2>
+      <p class="multicolumn-text">
+        {{ section.settings.text }}
+      </p>
+</div>
       {%- if section.settings.button_label != blank and section.settings.swipe_on_mobile -%}
         <a href="{{ section.settings.button_link }}" class="link underlined-link large-up-hide">{{ section.settings.button_label | escape }}</a>
       {%- endif -%}
@@ -91,6 +96,12 @@
         </a>
       {%- endif-%}
     </div>
+{%- if section.settings.background_image != blank -%}
+    <img class="multicolumn-background__image lazyload"
+          src="{{- section.settings.background_image | image_url: width: 2200 -}}"
+          alt="{{- section.settings.background_image.alt | escape -}}"
+          loading="lazy">
+          {%- endif -%}
   </div>
 </div>
 
@@ -101,10 +112,20 @@
   "tag": "section",
   "settings": [
     {
+      "type": "image_picker",
+      "id": "background_image",
+      "label": "Background image"
+    },
+    {
       "type": "text",
       "id": "title",
       "default": "Multicolumn",
       "label": "t:sections.multicolumn.settings.title.label"
+    },
+    {
+      "type": "text",
+      "id": "text",
+      "label": "Text"
     },
     {
       "type": "select",
