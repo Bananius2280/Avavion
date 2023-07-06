@@ -1,6 +1,6 @@
 {
   "sections": {
-    "4a51e163-5799-4449-a462-a15313bdece2": {
+    "a8ec8dae-68f0-499f-9b1b-0704d2246b14": {
       "type": "landing-header",
       "settings": {
         "color_scheme": "background-1",
@@ -11,7 +11,7 @@
         "show_line_separator": true,
         "linklist_buttons": "",
         "button_text": "Консультация",
-        "button_link": "shopify:\/\/pages\/brief-for-a-new-shopify-store",
+        "button_link": "shopify:\/\/blogs\/shopify-ua",
         "trm_languages_for_domain": true
       }
     },
@@ -21,7 +21,7 @@
         "template--15199260344381__fb5e5b71-0a64-44f4-8a92-1376ab215479-1684489492059a7ec1-0": {
           "type": "heading",
           "settings": {
-            "heading": "Shopify - профессиональная разработка и создание сайтов интернет-магазинов в Украине",
+            "heading": "Shopify - разработка и создание сайтов интернет-магазинов в Украине",
             "heading_size": "medium"
           }
         },
@@ -35,11 +35,17 @@
           "type": "buttons",
           "settings": {
             "button_label_1": "Заказать сайт",
-            "button_link_1": "#",
-            "button_style_secondary_1": false,
-            "button_label_2": "Заказать сайт",
-            "button_link_2": "shopify:\/\/blogs\/shopify-uk",
-            "button_style_secondary_2": false
+            "button_link_1": "shopify:\/\/pages\/question-form",
+            "button_style_secondary_1": true,
+            "button_border_1": true,
+            "button_color_1": "#ffffff",
+            "background_color_1": "#ff9000",
+            "button_label_2": "Консультация",
+            "button_link_2": "shopify:\/\/pages\/question-form",
+            "button_style_secondary_2": true,
+            "button_border_2": true,
+            "button_color_2": "#ff9000",
+            "background_color_2": "#ffffff"
           }
         }
       },
@@ -49,19 +55,24 @@
         "ab4cbb80-b3ba-400a-85b8-8b0b8f282502"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/banner.jpg",
+        "image": "shopify:\/\/shop_images\/main_page.jpg",
         "image_height": "small",
         "adapt_height_first_image": false,
         "desktop_text_box_position": "center",
         "show_text_box": true,
         "image_overlay_opacity": 0,
         "color_scheme": "background-1",
+        "buttons_position_left": true,
+        "buttons_position_floating": false,
+        "buttons_position_left_mob": false,
+        "buttons_position": "center",
         "stack_images_on_mobile": true,
         "show_text_below": true
       }
     },
     "2509f06f-f1f6-4fb4-90f2-755fb97f5c7f": {
       "type": "rich-text",
+      "disabled": true,
       "blocks": {
         "template--15199260344381__2509f06f-f1f6-4fb4-90f2-755fb97f5c7f-16866046259b2834f1-0": {
           "type": "heading",
@@ -174,14 +185,16 @@
         "template--15199260344381__69544ee1-bb44-402f-8455-d96a68582ba1-16844861695ad09b25-2"
       ],
       "custom_css": [
-        ".multicolumn-card {background-color: rgba()"
+
       ],
       "settings": {
-        "title": "",
+        "background_image": "shopify:\/\/shop_images\/second_screen.jpg",
+        "title": "Наши услуги",
+        "text": "Предоставляем комплексное решение для вашего бизнеса. Мы предлагаем интеграцию платежных систем, управление содержимым и другие функциональные возможности.",
         "image_width": "third",
         "image_ratio": "adapt",
         "column_alignment": "center",
-        "background_style": "primary",
+        "background_style": "secondary",
         "button_label": "",
         "button_link": "",
         "swipe_on_mobile": false
@@ -231,24 +244,31 @@
         "template--15199260344381__5bda12c6-2314-4750-8f93-73ba96ab6251-16871657475a861440-0": {
           "type": "slide",
           "settings": {
+            "slide_img": "shopify:\/\/shop_images\/image_14.jpg"
           }
         },
         "template--15199260344381__5bda12c6-2314-4750-8f93-73ba96ab6251-16871657475a861440-1": {
           "type": "slide",
           "settings": {
-            "slide_img": "shopify:\/\/shop_images\/samuelzeller168234.jpg"
+            "slide_img": "shopify:\/\/shop_images\/image_15.jpg"
           }
         },
         "template--15199260344381__5bda12c6-2314-4750-8f93-73ba96ab6251-16871657475a861440-2": {
           "type": "slide",
           "settings": {
-            "slide_img": "shopify:\/\/shop_images\/cherrylaithang138648.jpg"
+            "slide_img": "shopify:\/\/shop_images\/image_16.jpg"
           }
         },
         "5943dd21-3ddd-472d-b05c-9f8c8f049b9b": {
           "type": "slide",
           "settings": {
-            "slide_img": "shopify:\/\/shop_images\/samuelzeller168234.jpg"
+            "slide_img": "shopify:\/\/shop_images\/image_18.jpg"
+          }
+        },
+        "7e19adda-e250-41b8-97a1-0741655ff442": {
+          "type": "slide",
+          "settings": {
+            "slide_img": "shopify:\/\/shop_images\/image_20.jpg"
           }
         }
       },
@@ -256,7 +276,8 @@
         "template--15199260344381__5bda12c6-2314-4750-8f93-73ba96ab6251-16871657475a861440-0",
         "template--15199260344381__5bda12c6-2314-4750-8f93-73ba96ab6251-16871657475a861440-1",
         "template--15199260344381__5bda12c6-2314-4750-8f93-73ba96ab6251-16871657475a861440-2",
-        "5943dd21-3ddd-472d-b05c-9f8c8f049b9b"
+        "5943dd21-3ddd-472d-b05c-9f8c8f049b9b",
+        "7e19adda-e250-41b8-97a1-0741655ff442"
       ],
       "settings": {
         "title": "Примеры разработки интернет магазинов Shopify"
@@ -353,6 +374,7 @@
       ],
       "settings": {
         "title": "Наши отзывы",
+        "text": "",
         "image_width": "half",
         "image_ratio": "circle",
         "column_alignment": "center",
@@ -368,7 +390,7 @@
         "template--15199260344381__07a4d1a2-3458-4965-b570-f88970561466-1687165810d5bc9206-0": {
           "type": "column",
           "settings": {
-            "item_img": "shopify:\/\/shop_images\/account.png",
+            "item_img": "shopify:\/\/shop_images\/Frame_9.png",
             "item_title": "Настройка разработка вашего интернет-магазина",
             "item_text": "<ul><li>Разработка дизайна и подбор темы<\/li><li>Наполнение товарами<\/li><li>Оформление главной страницы и страниц коллекций<\/li><li>Подключение платежных шлюзов для <strong>Shopify<\/strong><\/li><li>Настройка доставки<\/li><\/ul>"
           }
@@ -376,7 +398,7 @@
         "3bdcbe19-33e7-4ac3-97cb-a9a092162a3a": {
           "type": "column",
           "settings": {
-            "item_img": "shopify:\/\/shop_images\/tariff.png",
+            "item_img": "shopify:\/\/shop_images\/Frame_10.png",
             "item_title": "Настройка функциональности магазина Shopify",
             "item_text": "<ul><li>Установка необходимых приложения из Apps Shopify для расширения функциональности вашего магазина.<\/li><li>Настройте интеграции с социальными сетями и маркетплейсами для упрощения продвижения и управления вашими товарами.<\/li><\/ul>"
           }
@@ -384,7 +406,7 @@
         "5920b1f0-5fa6-4750-9040-afb47875e1f7": {
           "type": "column",
           "settings": {
-            "item_img": "shopify:\/\/shop_images\/free-icon-new-produc.png",
+            "item_img": "shopify:\/\/shop_images\/Frame_11.png",
             "item_title": "Завершение разработки вашего интернет-магазина",
             "item_text": "<ul><li>Создание страниц и блога (основные информационные страницы, такие как \"О нас\", \"Условия обслуживания\" и \"Контакты\")<\/li><li><strong>Тестирование и запуск магазина<\/strong><\/li><\/ul>"
           }
@@ -408,12 +430,12 @@
         "template--15199260344381__507162a9-5f0c-4e81-9129-3aacf1a60e3c-168716458508f0af6c-0": {
           "type": "column",
           "settings": {
-            "item_img": "shopify:\/\/shop_images\/061.svg",
-            "item_title": "One hour",
-            "item_text": "$12 \/ person",
-            "item_first_title": "Free WI-FI",
-            "item_second_title": "Hot desk",
-            "item_third_title": "Free printer",
+            "item_img": "shopify:\/\/shop_images\/second_screen.jpg",
+            "item_title": "Lite",
+            "item_text": "Небольшой магазин от 800 €",
+            "item_first_title": "Разработка Home page, Добавление до 20 товаров, Добавление каталога (коллекций товаров), Подключение платежных систем Shopify, Настройка доставки, Добавление обязательных программ и текстовых страниц, Подключение Google и Facebook, Стандартный функционал (Корзина, оповещения клиентов о заказах, быстрые покупки)",
+            "item_second_title": "",
+            "item_third_title": "",
             "item_fourth_title": "",
             "item_fifth_title": "",
             "item_sixth_title": "",
@@ -433,14 +455,14 @@
         "93ebc4ef-e834-4b86-a097-5edf41297476": {
           "type": "column",
           "settings": {
-            "item_img": "shopify:\/\/shop_images\/05.svg",
-            "item_title": "All day",
-            "item_text": "$50 \/ person",
-            "item_first_title": "Free WI-FI2",
-            "item_second_title": "Hot desk",
-            "item_third_title": "Free printer",
-            "item_fourth_title": "hours in meeting room",
-            "item_fifth_title": "Tea and coffee",
+            "item_img": "shopify:\/\/shop_images\/second_screen.jpg",
+            "item_title": "Medium",
+            "item_text": "Средний магазин от 1500 €",
+            "item_first_title": "Разработка Home page, Добавление до 50 товаров, Добавление каталога (коллекций товаров), Подключение платежных систем Shopify, Настройка доставки, Добавление обязательных программ и текстовых страниц, Подключение Google и Facebook, Стандартный функционал (Корзина, оповещения клиентов о заказах, быстрые покупки)",
+            "item_second_title": "Мультиязычность, Блог, Подключения приложений для расширенной функциональности магазина",
+            "item_third_title": "",
+            "item_fourth_title": "",
+            "item_fifth_title": "",
             "item_sixth_title": "",
             "item_seventh_title": "",
             "item_eighth_title": "",
@@ -458,14 +480,14 @@
         "3eed95ed-c89e-4bbb-8cb0-833ce9b09aed": {
           "type": "column",
           "settings": {
-            "item_img": "shopify:\/\/shop_images\/04.svg",
+            "item_img": "shopify:\/\/shop_images\/second_screen.jpg",
             "item_title": "Pro",
-            "item_text": "$199 \/ person",
-            "item_first_title": "Free WI-FI",
-            "item_second_title": "Dedicated desk",
-            "item_third_title": "Free printer",
-            "item_fourth_title": "5 hours in meeting room",
-            "item_fifth_title": "Tea and coffee",
+            "item_text": "Большой магазин от 3000 €",
+            "item_first_title": "Разработка Home page, Добавление до 100 товаров, Добавление каталога (коллекций товаров), Подключение платежных систем Shopify, Настройка доставки, Добавление обязательных программ и текстовых страниц, Подключение Google и Facebook, Стандартный функционал (Корзина, оповещения клиентов о заказах, быстрые покупки)",
+            "item_second_title": "Мультиязычность, Блог, Подключения приложений для расширенной функциональности магазина",
+            "item_third_title": "Расширенный функционал интернет-магазина. Индивидуальный дизайн. Подключение списков желаний. Расширенный поиск. Сопутствующие товары. Оплата частями.",
+            "item_fourth_title": "",
+            "item_fifth_title": "",
             "item_sixth_title": "",
             "item_seventh_title": "",
             "item_eighth_title": "",
@@ -485,6 +507,10 @@
         "template--15199260344381__507162a9-5f0c-4e81-9129-3aacf1a60e3c-168716458508f0af6c-0",
         "93ebc4ef-e834-4b86-a097-5edf41297476",
         "3eed95ed-c89e-4bbb-8cb0-833ce9b09aed"
+      ],
+      "custom_css": [
+        "h4 {color: #000}",
+        "h5 {color: #000}"
       ],
       "settings": {
         "title": "Интернет-магазин Shopify тарифы",
@@ -525,6 +551,7 @@
 
       ],
       "settings": {
+        "image": "shopify:\/\/shop_images\/Fast_delivery_vector_image_on_VectorStock_2.svg",
         "height": "small",
         "color_scheme": "background-2",
         "layout": "text_first"
@@ -536,7 +563,7 @@
         "template--15199260344381__2f120dec-f449-48bd-aeda-9c658d2fbe53-1684752002ec18f0f7-0": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/2560px-Stripe_Logo__revised_2016.png",
+            "image": "shopify:\/\/shop_images\/stripe_429dabe9-ea73-441d-8e5c-fcc0285aa59d.png",
             "title": "",
             "text": "",
             "link_label": "",
@@ -546,7 +573,7 @@
         "template--15199260344381__2f120dec-f449-48bd-aeda-9c658d2fbe53-1684752002ec18f0f7-1": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Facebook-Logo.png",
+            "image": "shopify:\/\/shop_images\/Facebook_shopify_8ac33c91-6ee1-4283-9aa8-29c39290a417.png",
             "title": "",
             "text": "",
             "link_label": "",
@@ -556,7 +583,7 @@
         "template--15199260344381__2f120dec-f449-48bd-aeda-9c658d2fbe53-1684752002ec18f0f7-2": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Logo-Amazon.png",
+            "image": "shopify:\/\/shop_images\/Google_Analytics_4.png",
             "title": "",
             "text": "",
             "link_label": "",
@@ -566,7 +593,17 @@
         "0fa6f1bf-56ad-4256-b107-a25e4b286b92": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/1280px-Fondy-logo_svg.png",
+            "image": "shopify:\/\/shop_images\/Fondy_b104cb76-02ab-482d-bd90-89938df4b303.png",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "cd80c934-84a7-41c2-9b0d-9c232650fa71": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/amazon-shopify.png",
             "title": "",
             "text": "",
             "link_label": "",
@@ -578,10 +615,12 @@
         "template--15199260344381__2f120dec-f449-48bd-aeda-9c658d2fbe53-1684752002ec18f0f7-0",
         "template--15199260344381__2f120dec-f449-48bd-aeda-9c658d2fbe53-1684752002ec18f0f7-1",
         "template--15199260344381__2f120dec-f449-48bd-aeda-9c658d2fbe53-1684752002ec18f0f7-2",
-        "0fa6f1bf-56ad-4256-b107-a25e4b286b92"
+        "0fa6f1bf-56ad-4256-b107-a25e4b286b92",
+        "cd80c934-84a7-41c2-9b0d-9c232650fa71"
       ],
       "settings": {
         "title": "",
+        "text": "",
         "image_width": "half",
         "image_ratio": "adapt",
         "column_alignment": "center",
@@ -594,14 +633,14 @@
     "4fc25a06-f97f-4654-9d91-0d39aa856116": {
       "type": "contact-form-with-image",
       "settings": {
-        "image_left": "shopify:\/\/shop_images\/photo_2023-06-19_22-57-29.jpg",
+        "image_left": "shopify:\/\/shop_images\/contact.svg",
         "heading": "Свяжитесь с нами",
         "text": "Заполните форму для получения консультации по разработке и созданию сайта на Shopify."
       }
     }
   },
   "order": [
-    "4a51e163-5799-4449-a462-a15313bdece2",
+    "a8ec8dae-68f0-499f-9b1b-0704d2246b14",
     "fb5e5b71-0a64-44f4-8a92-1376ab215479",
     "2509f06f-f1f6-4fb4-90f2-755fb97f5c7f",
     "main",

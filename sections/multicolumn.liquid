@@ -96,12 +96,12 @@
         </a>
       {%- endif-%}
     </div>
-{%- if section.settings.background_image != blank -%}
-    <img class="multicolumn-background__image lazyload"
-          src="{{- section.settings.background_image | image_url: width: 2200 -}}"
-          alt="{{- section.settings.background_image.alt | escape -}}"
-          loading="lazy">
-          {%- endif -%}
+      {%- if section.settings.background_image != blank -%}
+        <img class="multicolumn-background__image lazyload"
+        src="{{- section.settings.background_image | image_url: width: 2200 -}}"
+        alt="{{- section.settings.background_image.alt | escape -}}"
+        loading="lazy">
+      {%- endif -%}
   </div>
 </div>
 

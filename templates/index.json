@@ -1,50 +1,5 @@
 {
   "sections": {
-    "f98d1ef1-fddc-4a6f-afac-1d499e54565d": {
-      "type": "image-banner-v2",
-      "blocks": {
-        "template--15219821772861__f98d1ef1-fddc-4a6f-afac-1d499e54565d-16878637757ed6331f-0": {
-          "type": "heading",
-          "settings": {
-            "heading": "Image banner",
-            "heading_size": "medium"
-          }
-        },
-        "template--15219821772861__f98d1ef1-fddc-4a6f-afac-1d499e54565d-16878637757ed6331f-1": {
-          "type": "text",
-          "settings": {
-            "text": "Give customers details about the banner image(s) or content on the template."
-          }
-        },
-        "template--15219821772861__f98d1ef1-fddc-4a6f-afac-1d499e54565d-16878637757ed6331f-2": {
-          "type": "buttons",
-          "settings": {
-            "button_label_1": "Button label",
-            "button_link_1": "",
-            "button_style_secondary_1": false,
-            "button_label_2": "Button label",
-            "button_link_2": "",
-            "button_style_secondary_2": false
-          }
-        }
-      },
-      "block_order": [
-        "template--15219821772861__f98d1ef1-fddc-4a6f-afac-1d499e54565d-16878637757ed6331f-0",
-        "template--15219821772861__f98d1ef1-fddc-4a6f-afac-1d499e54565d-16878637757ed6331f-1",
-        "template--15219821772861__f98d1ef1-fddc-4a6f-afac-1d499e54565d-16878637757ed6331f-2"
-      ],
-      "settings": {
-        "image": "shopify:\/\/shop_images\/banner.jpg",
-        "image_height": "medium",
-        "adapt_height_first_image": false,
-        "desktop_text_box_position": "center",
-        "show_text_box": true,
-        "image_overlay_opacity": 0,
-        "color_scheme": "background-1",
-        "stack_images_on_mobile": true,
-        "show_text_below": true
-      }
-    },
     "image_banner": {
       "type": "image-banner",
       "blocks": {
@@ -469,7 +424,6 @@
     }
   },
   "order": [
-    "f98d1ef1-fddc-4a6f-afac-1d499e54565d",
     "image_banner",
     "1638385511070dd6c1",
     "rich_text",
