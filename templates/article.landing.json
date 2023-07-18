@@ -12,6 +12,8 @@
         "linklist_buttons": "",
         "button_text": "Консультация",
         "button_link": "shopify:\/\/blogs\/shopify-ua",
+        "button_color": "#000000",
+        "background_color": "#ffffff",
         "trm_languages_for_domain": true
       }
     },
@@ -340,8 +342,8 @@
           "type": "column",
           "settings": {
             "image": "shopify:\/\/shop_images\/1517017671000.jpg",
-            "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "title": "",
+            "text": "<p>Очень давно искала человека, который разбирается в платформе Shopify. <br\/>Все пунктуально, быстро и очень профессионально. Особенно ценю терпение ко всем моим мелким замечаниям.<br\/>Будем обязательно работать дальше!<br\/>Спасибо.<\/p>",
             "link_label": "",
             "link": ""
           }
@@ -351,7 +353,7 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/images.jpg",
             "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "text": "<p>Отлично справились с поставленной задачей. Быстро, качественно и в срок. Рекомендую как хороших специалиста по Shopify сайту.<\/p>",
             "link_label": "",
             "link": ""
           }
@@ -431,15 +433,15 @@
           "type": "column",
           "settings": {
             "item_img": "shopify:\/\/shop_images\/second_screen.jpg",
-            "item_title": "Lite",
+            "item_title": "Basic",
             "item_text": "Небольшой магазин от 800 €",
-            "item_first_title": "Разработка Home page, Добавление до 20 товаров, Добавление каталога (коллекций товаров), Подключение платежных систем Shopify, Настройка доставки, Добавление обязательных программ и текстовых страниц, Подключение Google и Facebook, Стандартный функционал (Корзина, оповещения клиентов о заказах, быстрые покупки)",
-            "item_second_title": "",
-            "item_third_title": "",
-            "item_fourth_title": "",
-            "item_fifth_title": "",
-            "item_sixth_title": "",
-            "item_seventh_title": "",
+            "item_first_title": "Разработка Home page",
+            "item_second_title": "Подготовка структуры магазина",
+            "item_third_title": "Настройка шаблонов страниц, коллекций, продуктов",
+            "item_fourth_title": "Подключение Google Analytics, Facebook, Instagram",
+            "item_fifth_title": "Подключение платежных систем к Shopify",
+            "item_sixth_title": "Настройка доставки",
+            "item_seventh_title": "Добавление 25 товаров и коллекций",
             "item_eighth_title": "",
             "item_ninth_title": "",
             "item_tenth_title": "",
@@ -456,19 +458,19 @@
           "type": "column",
           "settings": {
             "item_img": "shopify:\/\/shop_images\/second_screen.jpg",
-            "item_title": "Medium",
+            "item_title": "Pro",
             "item_text": "Средний магазин от 1500 €",
-            "item_first_title": "Разработка Home page, Добавление до 50 товаров, Добавление каталога (коллекций товаров), Подключение платежных систем Shopify, Настройка доставки, Добавление обязательных программ и текстовых страниц, Подключение Google и Facebook, Стандартный функционал (Корзина, оповещения клиентов о заказах, быстрые покупки)",
-            "item_second_title": "Мультиязычность, Блог, Подключения приложений для расширенной функциональности магазина",
-            "item_third_title": "",
-            "item_fourth_title": "",
-            "item_fifth_title": "",
-            "item_sixth_title": "",
-            "item_seventh_title": "",
-            "item_eighth_title": "",
-            "item_ninth_title": "",
-            "item_tenth_title": "",
-            "item_eleventh_title": "",
+            "item_first_title": "Разработка Home page",
+            "item_second_title": "Подготовка структуры магазина",
+            "item_third_title": "Настройка шаблонов страниц, коллекций, продуктов",
+            "item_fourth_title": "Подключение Google Analytics, Facebook, Instagram",
+            "item_fifth_title": "Подключение платежных систем к Shopify",
+            "item_sixth_title": "Настройка доставки",
+            "item_seventh_title": "Добавление 50 товаров и коллекций",
+            "item_eighth_title": "Мультиязычность",
+            "item_ninth_title": "GDPR",
+            "item_tenth_title": "5 часов кастомных доработок программистом",
+            "item_eleventh_title": "Подключения приложений для расширенной функциональности магазина",
             "item_twelfth_title": "",
             "item_thirteenth_title": "",
             "item_fourteenth_title": "",
@@ -481,19 +483,19 @@
           "type": "column",
           "settings": {
             "item_img": "shopify:\/\/shop_images\/second_screen.jpg",
-            "item_title": "Pro",
+            "item_title": "Enterprise",
             "item_text": "Большой магазин от 3000 €",
-            "item_first_title": "Разработка Home page, Добавление до 100 товаров, Добавление каталога (коллекций товаров), Подключение платежных систем Shopify, Настройка доставки, Добавление обязательных программ и текстовых страниц, Подключение Google и Facebook, Стандартный функционал (Корзина, оповещения клиентов о заказах, быстрые покупки)",
-            "item_second_title": "Мультиязычность, Блог, Подключения приложений для расширенной функциональности магазина",
-            "item_third_title": "Расширенный функционал интернет-магазина. Индивидуальный дизайн. Подключение списков желаний. Расширенный поиск. Сопутствующие товары. Оплата частями.",
-            "item_fourth_title": "",
-            "item_fifth_title": "",
-            "item_sixth_title": "",
-            "item_seventh_title": "",
-            "item_eighth_title": "",
-            "item_ninth_title": "",
-            "item_tenth_title": "",
-            "item_eleventh_title": "",
+            "item_first_title": "Разработка Home page",
+            "item_second_title": "Подготовка структуры магазина",
+            "item_third_title": "Настройка шаблонов страниц, коллекций, продуктов",
+            "item_fourth_title": "Подключение Google Analytics, Facebook, Instagram",
+            "item_fifth_title": "Подключение платежных систем к Shopify",
+            "item_sixth_title": "Настройка доставки",
+            "item_seventh_title": "Добавление 100 товаров и коллекций",
+            "item_eighth_title": "Мультиязычность",
+            "item_ninth_title": "GDPR",
+            "item_tenth_title": "80 часов кастомных доработок программистом",
+            "item_eleventh_title": "Подключения приложений для расширенной функциональности магазина",
             "item_twelfth_title": "",
             "item_thirteenth_title": "",
             "item_fourteenth_title": "",
@@ -509,8 +511,8 @@
         "3eed95ed-c89e-4bbb-8cb0-833ce9b09aed"
       ],
       "custom_css": [
-        "h4 {color: #000}",
-        "h5 {color: #000}"
+        "h4 {color: #000;}",
+        "h5 {color: #000;}"
       ],
       "settings": {
         "title": "Интернет-магазин Shopify тарифы",
@@ -548,7 +550,7 @@
         "template--15199260344381__3cab6e88-d4cf-4853-bfe9-9103349c9598-16844903740ceaee0d-2"
       ],
       "custom_css": [
-
+        "h2 {text-align: center}"
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/Fast_delivery_vector_image_on_VectorStock_2.svg",

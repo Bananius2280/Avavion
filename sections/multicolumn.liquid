@@ -4,19 +4,28 @@
 
 <div class="multicolumn{% if template.suffix == 'landing' %} multicolumn-background{% endif %} background-{{ section.settings.background_style }}{% if section.settings.title == blank %} no-heading{% endif %}">
   <div class="page-width">
+    {%- if section.settings.title != blank or section.settings.text != blank or section.settings.button_label != blank or section.settings.swipe_on_mobile -%}
     <div class="title-wrapper-with-link multicolumn-wrapper__box title-wrapper--self-padded-mobile{% if section.settings.title == blank %} title-wrapper-with-link--no-heading{% endif %}">
+      {%- if section.settings.title != blank or section.settings.text != blank -%}
         <div class="multicolumn-text__box">
-          <h2 class="title h1 multicolumn-title">
-        {{ section.settings.title | escape }}
-      </h2>
-      <p class="multicolumn-text">
-        {{ section.settings.text }}
-      </p>
-</div>
+          {%- if section.settings.title != blank -%}
+            <h2 class="title h1 multicolumn-title">
+              {{ section.settings.title | escape }}
+            </h2>
+          {%- endif -%}
+          {%- if section.settings.text != blank -%}
+            <p class="multicolumn-text">
+              {{ section.settings.text }}
+            </p>
+          {%- endif -%}
+        </div>
+      {%- endif -%}
       {%- if section.settings.button_label != blank and section.settings.swipe_on_mobile -%}
         <a href="{{ section.settings.button_link }}" class="link underlined-link large-up-hide">{{ section.settings.button_label | escape }}</a>
       {%- endif -%}
     </div>
+    {%- endif -%}
+    
     <slider-component class="slider-mobile-gutter">
       <ul class="multicolumn-list grid grid--1-col{% if section.blocks.size > 3 and section.settings.image_width != 'full' %} grid--2-col-tablet grid--4-col-desktop{% elsif section.blocks.size > 3 and section.settings.image_width == 'full' %} grid--2-col-tablet{% else %} grid--3-col-tablet{% endif %}{% if section.settings.swipe_on_mobile and section.blocks.size > 1 %} slider slider--mobile grid--peek{% endif %}"
         id="Slider-{{ section.id }}"

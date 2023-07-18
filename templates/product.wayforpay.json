@@ -118,12 +118,23 @@
             "link_label": "TradeMinister",
             "link": "https:\/\/trademinister.com.ua"
           }
+        },
+        "be3fc36a-09cc-4921-8c66-8dbed542bbee": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Sun-and-See.jpg",
+            "title": "",
+            "text": "<p>Магазин купальников<\/p>",
+            "link_label": "Sun and See",
+            "link": "https:\/\/sunandsea.shop\/"
+          }
         }
       },
       "block_order": [
         "template--15136584073277__6d3c3418-0661-4250-9a87-7ad47c453e53-16862929763facd589-2",
         "template--15136584073277__6d3c3418-0661-4250-9a87-7ad47c453e53-16862929763facd589-0",
-        "template--15136584073277__6d3c3418-0661-4250-9a87-7ad47c453e53-16862929763facd589-1"
+        "template--15136584073277__6d3c3418-0661-4250-9a87-7ad47c453e53-16862929763facd589-1",
+        "be3fc36a-09cc-4921-8c66-8dbed542bbee"
       ],
       "settings": {
         "title": "Примеры магазинов",
