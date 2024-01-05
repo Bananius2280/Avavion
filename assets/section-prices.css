@@ -176,4 +176,8 @@
   .prices-top__text {
     font-size: 18px;
   }
+
+    .prices {
+      padding: 30px 0;
+    }
 }
