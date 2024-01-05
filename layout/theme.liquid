@@ -7,8 +7,22 @@
     <meta name="google-site-verification" content="aUibEydsIEmKDUlG8L6JYNuhKFA9f7WuvFKqt1xmrbs" />
     <meta name="viewport" content="width=device-width,initial-scale=1">
     <meta name="theme-color" content="">
+    <!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=AW-11349452056"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'AW-11349452056');
+</script>
     {%- render 'trm_meta_head' -%}
-    <link rel="canonical" href="{{ canonical_url }}">
+    {%- if canonical_url contains '?'-%}
+      {%- assign new_canonical_url = canonical_url | split: '?' | first -%}
+      <link rel="canonical" href="{{ new_canonical_url }}">
+    {%- else -%}
+      <link rel="canonical" href="{{ canonical_url }}">
+    {%- endif -%}
     <link rel="preconnect" href="https://cdn.shopify.com" crossorigin>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>

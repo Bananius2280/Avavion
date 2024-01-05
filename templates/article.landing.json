@@ -11,7 +11,7 @@
         "show_line_separator": true,
         "linklist_buttons": "",
         "button_text": "Консультация",
-        "button_link": "shopify:\/\/blogs\/shopify-ua",
+        "button_link": "https:\/\/trademinister.pl\/pages\/question-form",
         "button_color": "#000000",
         "background_color": "#ffffff",
         "trm_languages_for_domain": true
@@ -30,7 +30,7 @@
         "template--15199260344381__fb5e5b71-0a64-44f4-8a92-1376ab215479-1684489492059a7ec1-1": {
           "type": "text",
           "settings": {
-            "text": "Мы предлагаем профессиональную разработку и создание сайтов интернет-магазинов на платформе Shopify в Украине. Наша команда экспертов обладает богатым опытом работы с Shopify и поможет вам создать уникальный и функциональный интернет-магазин, соответствующий вашим потребностям и целям."
+            "text": "Более 10 лет занимаемся разработкой и созданием продающих сайтов интернет-магазинов на платформе Shopify в Украине. Сделаем ваш интернет-магазин уникальным и функциональным, соответствующий вашим потребностям и целям."
           }
         },
         "ab4cbb80-b3ba-400a-85b8-8b0b8f282502": {
@@ -58,6 +58,7 @@
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/main_page.jpg",
+        "mobile_image_block": "shopify:\/\/shop_images\/photo_2023-06-19_22-57-29.jpg",
         "image_height": "small",
         "adapt_height_first_image": false,
         "desktop_text_box_position": "center",
@@ -74,7 +75,6 @@
     },
     "2509f06f-f1f6-4fb4-90f2-755fb97f5c7f": {
       "type": "rich-text",
-      "disabled": true,
       "blocks": {
         "template--15199260344381__2509f06f-f1f6-4fb4-90f2-755fb97f5c7f-16866046259b2834f1-0": {
           "type": "heading",
@@ -104,6 +104,7 @@
         "template--15199260344381__2509f06f-f1f6-4fb4-90f2-755fb97f5c7f-16866046259b2834f1-1",
         "template--15199260344381__2509f06f-f1f6-4fb4-90f2-755fb97f5c7f-16866046259b2834f1-2"
       ],
+      "disabled": true,
       "settings": {
         "color_scheme": "background-1",
         "full_width": true
@@ -111,7 +112,6 @@
     },
     "main": {
       "type": "main-article",
-      "disabled": true,
       "blocks": {
         "featured_image": {
           "type": "featured_image",
@@ -144,6 +144,7 @@
         "share",
         "content"
       ],
+      "disabled": true,
       "settings": {
       }
     },
@@ -157,7 +158,7 @@
             "title": "Создание интернет-магазинов с нуля",
             "text": "<p>Наша команда экспертов предлагает полный цикл услуг по созданию и разработке интернет-магазинов под ключ, начиная с идеи и заканчивая полноценным функциональным сайтом. Мы учтем все ваши требования и предпочтения.<\/p>",
             "link_label": "Узнать цены",
-            "link": ""
+            "link": "https:\/\/trademinister.com.ua\/blogs\/shopify\/shopify#prices"
           }
         },
         "template--15199260344381__69544ee1-bb44-402f-8455-d96a68582ba1-16844861695ad09b25-1": {
@@ -167,7 +168,7 @@
             "title": "Консультации и поддержка интернет-магазинов",
             "text": "<p>После создания интернет-магазинов Shopify, наши специалисты в области консультации и поддержки интернет-магазинов готовы помочь вам в развитии вашего бизнеса на платформе<\/p>",
             "link_label": "Узнать цены",
-            "link": ""
+            "link": "https:\/\/trademinister.com.ua\/blogs\/shopify\/shopify#prices"
           }
         },
         "template--15199260344381__69544ee1-bb44-402f-8455-d96a68582ba1-16844861695ad09b25-2": {
@@ -177,7 +178,7 @@
             "title": "Разработка Shopify Apps",
             "text": "<p>Наша команда специализируется на разработке Shopify Apps, которые помогут вам расширить функциональность вашего интернет-магазина на платформе Shopify. Мы создаем настраиваемые приложения, которые отвечают вашим уникальным потребностям<\/p>",
             "link_label": "Узнать цены",
-            "link": ""
+            "link": "https:\/\/trademinister.com.ua\/blogs\/shopify\/shopify#prices"
           }
         }
       },
@@ -204,7 +205,6 @@
     },
     "a21df663-506a-4896-85a0-f20d320312bd": {
       "type": "rich-text",
-      "disabled": true,
       "blocks": {
         "template--15199260344381__a21df663-506a-4896-85a0-f20d320312bd-16866046259b2834f1-0": {
           "type": "heading",
@@ -235,6 +235,7 @@
         "template--15199260344381__a21df663-506a-4896-85a0-f20d320312bd-16866046259b2834f1-1",
         "template--15199260344381__a21df663-506a-4896-85a0-f20d320312bd-16866046259b2834f1-2"
       ],
+      "disabled": true,
       "settings": {
         "color_scheme": "background-1",
         "full_width": true
@@ -287,7 +288,6 @@
     },
     "e8dfe967-ba19-44e9-9719-69810c2afd34": {
       "type": "image-banner",
-      "disabled": true,
       "blocks": {
         "template--15199260344381__e8dfe967-ba19-44e9-9719-69810c2afd34-1686605081678b678c-0": {
           "type": "heading",
@@ -323,6 +323,7 @@
         "template--15199260344381__e8dfe967-ba19-44e9-9719-69810c2afd34-1686605081678b678c-1",
         "template--15199260344381__e8dfe967-ba19-44e9-9719-69810c2afd34-1686605081678b678c-2"
       ],
+      "disabled": true,
       "settings": {
         "image": "shopify:\/\/shop_images\/ff52589f90c29309a6cce22813752a95.png",
         "image_height": "medium",
@@ -333,57 +334,6 @@
         "color_scheme": "background-1",
         "stack_images_on_mobile": true,
         "show_text_below": true
-      }
-    },
-    "26d5b6dd-0171-4eb9-a4e5-4d6a3d1604ff": {
-      "type": "multicolumn",
-      "blocks": {
-        "template--15199260344381__26d5b6dd-0171-4eb9-a4e5-4d6a3d1604ff-1686605991b0bf5d39-0": {
-          "type": "column",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/1517017671000.jpg",
-            "title": "",
-            "text": "<p>Очень давно искала человека, который разбирается в платформе Shopify. <br\/>Все пунктуально, быстро и очень профессионально. Особенно ценю терпение ко всем моим мелким замечаниям.<br\/>Будем обязательно работать дальше!<br\/>Спасибо.<\/p>",
-            "link_label": "",
-            "link": ""
-          }
-        },
-        "template--15199260344381__26d5b6dd-0171-4eb9-a4e5-4d6a3d1604ff-1686605991b0bf5d39-1": {
-          "type": "column",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/images.jpg",
-            "title": "Column",
-            "text": "<p>Отлично справились с поставленной задачей. Быстро, качественно и в срок. Рекомендую как хороших специалиста по Shopify сайту.<\/p>",
-            "link_label": "",
-            "link": ""
-          }
-        },
-        "template--15199260344381__26d5b6dd-0171-4eb9-a4e5-4d6a3d1604ff-1686605991b0bf5d39-2": {
-          "type": "column",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/images_1.jpg",
-            "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
-            "link_label": "",
-            "link": ""
-          }
-        }
-      },
-      "block_order": [
-        "template--15199260344381__26d5b6dd-0171-4eb9-a4e5-4d6a3d1604ff-1686605991b0bf5d39-0",
-        "template--15199260344381__26d5b6dd-0171-4eb9-a4e5-4d6a3d1604ff-1686605991b0bf5d39-1",
-        "template--15199260344381__26d5b6dd-0171-4eb9-a4e5-4d6a3d1604ff-1686605991b0bf5d39-2"
-      ],
-      "settings": {
-        "title": "Наши отзывы",
-        "text": "",
-        "image_width": "half",
-        "image_ratio": "circle",
-        "column_alignment": "center",
-        "background_style": "primary",
-        "button_label": "",
-        "button_link": "",
-        "swipe_on_mobile": false
       }
     },
     "07a4d1a2-3458-4965-b570-f88970561466": {
@@ -402,7 +352,7 @@
           "settings": {
             "item_img": "shopify:\/\/shop_images\/Frame_10.png",
             "item_title": "Настройка функциональности магазина Shopify",
-            "item_text": "<ul><li>Установка необходимых приложения из Apps Shopify для расширения функциональности вашего магазина.<\/li><li>Настройте интеграции с социальными сетями и маркетплейсами для упрощения продвижения и управления вашими товарами.<\/li><\/ul>"
+            "item_text": "<ul><li>Установка необходимых приложения из Apps Shopify для расширения функциональности вашего магазина.<\/li><li>Настройка интеграции с социальными сетями и маркетплейсами для упрощения продвижения и управления вашими товарами.<\/li><\/ul>"
           }
         },
         "5920b1f0-5fa6-4750-9040-afb47875e1f7": {
@@ -519,6 +469,72 @@
         "text": "Стоимость интернет магазина зависит от сложности и желаемого функционала. Мы предлагаем 3 тарифа для удобства наших клиентов"
       }
     },
+    "26d5b6dd-0171-4eb9-a4e5-4d6a3d1604ff": {
+      "type": "multicolumn",
+      "blocks": {
+        "template--15199260344381__26d5b6dd-0171-4eb9-a4e5-4d6a3d1604ff-1686605991b0bf5d39-2": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/wrp-logo-black-black-polymer-ico.png",
+            "title": "We are Polymer",
+            "text": "<p>Отличная работа, отличная коммуникация, приятно работать, не только выполнили задание, но и расширили его, добавив дополнительные возможности. Отличный подрядчик, обязательно обратимся еще раз.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "template--15199260344381__26d5b6dd-0171-4eb9-a4e5-4d6a3d1604ff-1686605991b0bf5d39-0": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/logo_1_140x_a3614f0a-d255-4af5-86e5-d41fe9969498.png",
+            "title": "Alisa.ua",
+            "text": "<p>Сотрудничаем с TradeMinister в основном по фронтэнду Shopify. Ребята выполняют задачи оперативно и профессионально, удалось значительно повысить конверсию сайта за счет оптимизации скорости загрузки страниц. Метрики гугла зашкаливают даже на мобильной версии. Однако не фронтом единым, в трейдмастер сильная бекэнд экспертиза. Приятно удивило, что ребята взялись и быстро разобрались с кодом других разработчиков, и в кратчайшие сроки пофиксили ошибки с вебхуками.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "template--15199260344381__26d5b6dd-0171-4eb9-a4e5-4d6a3d1604ff-1686605991b0bf5d39-1": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/zhilyova-ua.png",
+            "title": "Zhilyova UA",
+            "text": "<p>Приложение решило нашу проблему с оформлением доставок Новой Почтой. Программа помогает в периоды большого наплыва заказов.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "d76ddd6b-9059-46a3-b9fd-7b7d94235b54": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/logoMila.png",
+            "title": "Vitalys Mila Bichart",
+            "text": "<p>Работать с командой - одно удовольствие! Настоящие профессионалы, внимательные к пожеланиям клиента! Работают оперативно, всегда обеспечивают обратную связь! Вся работа была выполнена без задержек и полностью соответствовала всем изначально заданным критериям! Спасибо за проделанную работу!<\/p>",
+            "link_label": "",
+            "link": "https:\/\/vitalys-paris.com\/"
+          }
+        }
+      },
+      "block_order": [
+        "template--15199260344381__26d5b6dd-0171-4eb9-a4e5-4d6a3d1604ff-1686605991b0bf5d39-2",
+        "template--15199260344381__26d5b6dd-0171-4eb9-a4e5-4d6a3d1604ff-1686605991b0bf5d39-0",
+        "template--15199260344381__26d5b6dd-0171-4eb9-a4e5-4d6a3d1604ff-1686605991b0bf5d39-1",
+        "d76ddd6b-9059-46a3-b9fd-7b7d94235b54"
+      ],
+      "custom_css": [
+        ".media--transparent {background-color: #fffff0;}"
+      ],
+      "settings": {
+        "background_image": "shopify:\/\/shop_images\/second_screen.jpg",
+        "title": "Наши отзывы",
+        "text": "",
+        "image_width": "half",
+        "image_ratio": "circle",
+        "column_alignment": "center",
+        "background_style": "primary",
+        "button_label": "",
+        "button_link": "",
+        "swipe_on_mobile": true
+      }
+    },
     "3cab6e88-d4cf-4853-bfe9-9103349c9598": {
       "type": "image-with-text",
       "blocks": {
@@ -550,7 +566,7 @@
         "template--15199260344381__3cab6e88-d4cf-4853-bfe9-9103349c9598-16844903740ceaee0d-2"
       ],
       "custom_css": [
-        "h2 {text-align: center}"
+        "h2 {text-align: center;}"
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/Fast_delivery_vector_image_on_VectorStock_2.svg",
@@ -650,9 +666,9 @@
     "a21df663-506a-4896-85a0-f20d320312bd",
     "5bda12c6-2314-4750-8f93-73ba96ab6251",
     "e8dfe967-ba19-44e9-9719-69810c2afd34",
-    "26d5b6dd-0171-4eb9-a4e5-4d6a3d1604ff",
     "07a4d1a2-3458-4965-b570-f88970561466",
     "507162a9-5f0c-4e81-9129-3aacf1a60e3c",
+    "26d5b6dd-0171-4eb9-a4e5-4d6a3d1604ff",
     "3cab6e88-d4cf-4853-bfe9-9103349c9598",
     "2f120dec-f449-48bd-aeda-9c658d2fbe53",
     "4fc25a06-f97f-4654-9d91-0d39aa856116"
